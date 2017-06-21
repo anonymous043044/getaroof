@@ -1,0 +1,208 @@
+body{
+
+       overflow-x: hidden !important;
+        overflow-y: scroll;
+        width: 100%;
+}
+/*this is navbar styling*/
+.navbar {
+    margin-bottom: 0;
+  /* background-color: #292c2f;*/
+    background-color: #292c2f;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.navbar li a, .navbar .navbar-brand {
+   
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+   /* color: #6F1EF4 !important;*/
+    color: #292c2f !important;
+    background-color: #FCFAFF !important;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+/*this is filter content */
+
+
+
+
+.box{
+    margin-top: 50px;
+   overflow-x: hidden !important;
+    height: 580px;
+  
+
+}
+.box  h2{
+    font-size: 22px; font-weight: bold; 
+    margin-left:45%;
+
+    margin-top: 20%;
+
+}
+
+/*make differ , testominal heading*/
+
+.make_differ_text{
+  text-align: center; font-size: 250%; color: black; 
+  font-family: 'Baloo Bhaina', cursive;
+  
+/*this is the js where no are  starting inc*/
+}
+.differ_border{
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    vertical-align: center;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
+    text-align: center;
+}
+.differ_text{
+   text-align: center; 
+   font-size: 150%; 
+   color: black;
+   font-weight: bold;
+  font-family: 'Baloo Bhaina', cursive; 
+}
+.differ_no{
+    /*display: inline-block;*/ 
+       width: 32%; 
+    font-size: 300%;
+    /*height: 200px;*/
+    }
+.rupee{
+    font-size: 250%;
+
+}
+
+/*testimianl part*/
+.carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: black;
+  }
+  .carousel-indicators li {
+      border-color: black;
+  }
+  .carousel-indicators li.active {
+      background-color: black;
+  }
+
+
+  .logo-small {
+      color: #292c2f;
+      font-size: 100px;
+  }
+/*contact input part*/
+  input[type=submit]{
+    width: 80px;
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+    font-size: 120%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #6E7076;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.inputcontact form{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.messagetext{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+   
+}
+form .row:first-child .form-item{border-top:1px solid #fff;
+}
+.form-item{position:relative;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #bbb;
+}
+.form-item input, .form-item textarea{z-index:1;position:relative;padding-right:0;
+  padding-left:0;border:0;border-radius:0;font-size:1.5em;background:0 0;
+  box-shadow:none!important;resize:none;width:100%;
+}
+.form-item input:focus, .form-item textarea:focus{outline:0
+}
+.form-item label{display:block;z-index:0;position:relative;top:2em;
+  margin:0;font-size:.85em;line-height:1.764705882em;
+  vertical-align:middle;vertical-align:baseline;
+  opacity:0;
+  -webkit-transition:top .3s ease,opacity .3s ease;transition:top .3s ease,opacity .3s ease;
+}
+.form-item-filled label{top:0;opacity:1;color:#aaa;
+}
+.form-item-focused label{color:#292c2f;
+}
+
+
+/*css part for slide element*/
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage
+ from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+

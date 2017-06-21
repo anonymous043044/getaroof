@@ -19,6 +19,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="footer.css">
 	<link rel="stylesheet" type="text/css" href="letterdrop.css">
 	<link rel="stylesheet" type="text/css" href="filter.css">
+	<link rel = "stylesheet" type = "text/css" 
+   href = "<?php echo base_url(); ?>css/letterdrop.css">
+   <link rel = "stylesheet" type = "text/css" 
+   href = "<?php echo base_url(); ?>css/stylelearning.css">
+   <link rel = "stylesheet" type = "text/css" 
+   href = "<?php echo base_url(); ?>css/filter.css">
+   <link rel = "stylesheet" type = "text/css" 
+   href = "<?php echo base_url(); ?>css/footer.css">
+   <link rel = "stylesheet" type = "text/css" 
+   href = "<?php echo base_url(); ?>css/font-style.css">
+
+<script type = 'text/javascript' src = "<?php echo base_url(); 
+   ?>js/jquery.counterup.min.js"></script>
+   <script type = 'text/javascript' src = "<?php echo base_url(); 
+   ?>js/letter.js"></script>
 	<!-- on hold check the naming  -->
 	<!-- page refresh at see from top -->
 	<script >
