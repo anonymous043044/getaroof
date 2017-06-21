@@ -340,7 +340,8 @@ It so happened that they met through Gaurav’s ex-IIT batchmate at the time whe
 				<div class="col-md-6 inputcontact" >
 
 
-					<h3 class="text-center">CONTACT</h3>
+					<p class="text-center" style=" font-size: 40px;
+  font-family: 'Mogra', cursive;">CONTACT</p>
 					<form>
 						<div class="form-item">
 							<label for="fname">NAME</label>
@@ -360,7 +361,8 @@ It so happened that they met through Gaurav’s ex-IIT batchmate at the time whe
 					</form>
 				</div>
 				<div class="col-md-6 inputcontact text-center">
-					<h3>OUR MOTO</h3> 
+					<p style=" font-size: 40px;
+  font-family: 'Mogra', cursive;">OUR MOTO</p> 
 					<p>ssdjs sjdsd ssjdhasj ssjdhas  <br> sjd jsadbasd </p>
 				</div>
 			</div>
