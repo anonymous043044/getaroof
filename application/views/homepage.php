@@ -8,25 +8,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>insert site name</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="home.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="<?=base_url()?>images/home.ico" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-	
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Chewy|Finger+Paint|Indie+Flower|Mogra|Pacifico|Pangolin|Permanent+Marker|Spectral" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/letterdrop.css">
    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/stylelearning.css">
    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/filter.css">
    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/footer.css">
    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/font-style.css">
 
-<script type = 'text/javascript' src = "<?php echo base_url(); 
-   ?>js/jquery.counterup.min.js"></script>
-   <script type = 'text/javascript' src = "<?php echo base_url(); 
-   ?>js/letter.js"></script>
-   
+	<script type = 'text/javascript' src = "<?php echo base_url();?>js/jquery.counterup.min.js"></script>
+   	<script type = 'text/javascript' src = "<?php echo base_url();?>js/letter.js"></script>
+
 	<!-- on hold check the naming  -->
 	<!-- page refresh at see from top -->
 	<script >
@@ -151,27 +150,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<!-- this is what  we make differ -->
 		<div style="background-color: #EAE5F1; width: 100%;" class="container-fluid"><!-- background color -->
 			<div><!-- difference box-->
-				<p class="make_differ_text" style="margin-bottom: 20px">WE MAKE A DIFFERENCE</p>
+				<p id="make_differ_text" style="margin-bottom: 20px">WE MAKE A DIFFERENCE</p>
 			</div>
 			<div class="row" style="text-align: center;"><!-- make a differ -->
-				<div class="col-sm-4 ">
-					<p class="differ_text"> Total Saved money</p>
-					<div class="differ_border" style="padding-top: 10px">
+				<div class="col-sm-4 " >
+					<p id="differ_text"> Total Saved money</p>
+					<div class="differ_border" style="padding-top: 10px; background-color: white;">
 						<p class="rupee">&#8377;</p>
 						<span class="counter differ_no" >23000</span> 
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<p class="differ_text">Students</p>
-					<div class="differ_border">
+					<p id="differ_text">Students</p>
+					<div class="differ_border" style="background-color: white;">
 						<span class="counter differ_no">1.9583</span>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<p class="differ_text">Year target</p>
-					<div class=" differ_border" style="padding-top: 10px">
+					<p id="differ_text">Year target</p>
+					<div class=" differ_border" style="padding-top: 10px ; background-color: white;">
 						<p class="rupee">&#8377;</p>
 						<span class="counter differ_no">12345</span>
 					</div>
@@ -187,7 +186,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<!-- testominal  part start-->
 
 			<div><!-- testimonial-->
-				<p class="make_differ_text">TESTIMONIAL</p>
+				<p id="make_differ_text">TESTIMONIAL</p>
 			</div>
 
 
@@ -211,8 +210,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<img src="https://placekitten.com/g/125/125" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p style="text-align: center; font-weight: bold;"> <br> <br>FIRST This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this is <br>helping and right now using is nice .... blah blah annd blah this </p>
-							<p style="text-align: right; font-weight: bold;"> <br> <br> . . . .</p>
+							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>FIRST This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this is <br>helping and right now using is nice .... blah blah annd blah this </p>
+							<p style="text-align: right; font-weight: bold;"> <br> <br> </p>
 						</div><!-- end text here of testimonal one -->
 
 
@@ -228,8 +227,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<img src="https://placekitten.com/g/125/128" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p style="text-align: center; font-weight: bold;"> <br> <br>SECOND This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this is helping and right now using is nice .... blah blah annd blah  </p>
-							<p style="text-align: right; font-weight: bold;"> <br> <br> . . . .</p>
+							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>SECOND This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this is helping and right now using is nice .... blah blah annd blah  </p>
+							<p style="text-align: right; font-weight: bold;"> <br> <br></p>
 						</div><!-- end text here of testimonal one -->
 
 
@@ -244,8 +243,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<img src="https://placekitten.com/g/125/127" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p style="text-align: center; font-weight: bold;"> <br> <br>THIRD This is good to  use this site , easy to use . <br>provide inf about the lanndlord . This is very good  to use this site . and this is helping and right now using is nice .... blah blah annd blah  </p>
-							<p style="text-align: right; font-weight: bold;"> <br> <br> . . . .</p>
+							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>THIRD This is good to  use this site , easy to use . <br>provide inf about the lanndlord . This is very good  to use this site . and this is helping and right now using is nice .... blah blah annd blah  </p>
+							<p style="text-align: right; font-weight: bold;"> <br> <br> </p>
 
 
 						</div><!-- end text here of testimonal one -->
@@ -260,8 +259,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<img src="https://placekitten.com/g/125/126" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p style="text-align: center; font-weight: bold;"> <br> <br>FORTH This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this <br> is helping and right now using is nice .... blah blah annd blah  </p>
-							<p style="text-align: right; font-weight: bold;"> <br> <br> . . . .</p>
+							<p  id="testimonal_text" style="text-align: center; "> <br> <br>FORTH This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this <br> is helping and right now using is nice .... blah blah annd blah  </p>
+							<p style="text-align: right; font-weight: bold;"> <br> <br> </p>
 						</div><!-- end text here of testimonal one -->
 
 
@@ -287,39 +286,49 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		<div><!-- why use this-->
-			<p class="make_differ_text" style="margin-bottom: 50px;margin-top: 50px;">WHY USE THIS ?</p>
+			<p id="make_differ_text" style="margin-bottom: 50px;margin-top: 50px;">WHY USE THIS ?</p>
 		</div>
 
 		<div class="row text-center slideanim">
 			<div class="col-sm-4  whythis">
 				<span class="glyphicon glyphicon-piggy-bank logo-small"></span>
 				<br>
-				<h3>FREE</h3>
+				<span id="use_this">FREE</span>
 			</div>
 			<div class="col-sm-4  whythis">
 				<span class="glyphicon glyphicon-search logo-small"></span>
 				<br>
-				<h3>EASY TO USE</h3>
+				<span id="use_this">EASY TO USE</span>
 			</div>
 			<div class="col-sm-4  whythis">
 				<span class="glyphicon glyphicon-certificate logo-small"></span>
 				<br>
-				<h3>COLLEGE AFFILIATED</h3>
+				<span id="use_this">COLLEGE AFFILIATED</span>
+				
 			</div>
 		</div>
 
 		<!-- why use this  end here -->
-		<a name="about"></a>
+		<a name="about" id="about"></a>
 
-		<div class="row "  style="margin-top: 50px; margin-bottom: 50px;" id="about">
+		<div class="row "  style="margin-top: 50px; margin-bottom: 50px;" >
 			<div class="col-sm-4 text-center">
-				<h3 style="color: black"><b>ABOUT US</b></h3>
+				<span style="color: black" id="about_heading">ABOUT US</span>
 			</div>
-			<div class="col-sm-8">
-				this s dsfskjdf sdkjfbdsjkf sdkfbkjsdf sdkfjbsdjkf sjdf  ddfsdfjsdd sdkjfbsjdkf kffjsdfsd fsddkfjsdfs f sddkfjsddfsd fksddjfsf sdbr	 sdkfb tb btn <br> ddkfjsdf sdkfjbsdjfsd fsdkfjsdf <br> dskfjsddf  dfdskjfsjdkfs  sdskfjsdfsddf ksdjfsdjkfs ffksdjdfsdf dkfjsddfjksdf  sdjfsddjf sddfjksf sdnnv jkd fbr	 > ddkjfbds .
-				this s dsfskjdf sdkjfbdsjkf sdkfbkjsdsdkfjbsdjkf sjdfdfsdfjsdd sdkjfbsjdkf kffjsdfsd fsddkfjsdfs f sddkfjsddfsd fksddjfsf sdbr	 sdkfb tb btn df sdkfjbsdjfsd fsdkfjsdf <br> dskfjsddf  dfdskjfsjdkfs  sdskfjsdfsddf ksdjfsdjkfs ffksdjdfsdf dkfjsddfjksdf  sdjfsddjf sddfjksf sdnnv jkd fbr	 <br> ddkjfbds .
-				this s dsfskjdf sdkjfbdsjkf sdkfbkjsdf sdkfjbsdjkf sjdf <br> ddfsdfjsdd sdkjfbsjdkf k ddkjfbds .
-				this s dsfskjdf sdkjfbdsjkf sdkfbkjsdf sdkfjbsdjkf sjdf <br> ddfsdfjsdd sdkjfbsjdkf kffjsdfsd fsddkfjsdfs f sddkfjsddfsd fksddjfsf sdbr	 sdkfb tb btn <br> ddkfjsdf sdkfjbsdjfsd fsdkfjsdf <br> dskfjsddf  dfdskjfsjdkfs <br> 	 .
+			<div class="col-sm-8" style="
+        padding-left: 30px;
+    padding-right: 30px;" id="about_font">
+				Neelabh is an investment banker specialising in mergers and acquisitions and public market fund raising.
+
+After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
+
+This was the time when fund houses (and mutual funds) were coming of age in the early 2000s. In his previous role, Neelabh was an investment banker with Enam Capital, now Axis Capital, after acquisition by Axis Bank.
+
+On the other end of the spectrum is Gaurav, an IIT Delhi and Booth School of Business graduate, who worked as a proprietary portfolio manager with Morgan Stanley across asset classes, commodities, and debt.
+
+It so happened that they met through Gaurav’s ex-IIT batchmate at the time when they were both contemplating entrepreneurship. Around August 2015, t
+
+ 	 .
 			</div>
 		</div>
 

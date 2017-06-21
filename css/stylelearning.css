@@ -56,12 +56,7 @@ body{
 
 /*make differ , testominal heading*/
 
-.make_differ_text{
-  text-align: center; font-size: 250%; color: black; 
-  font-family: 'Baloo Bhaina', cursive;
-  
-/*this is the js where no are  starting inc*/
-}
+
 .differ_border{
     border-style: solid;
     margin-top: 10px;
@@ -76,13 +71,7 @@ body{
     border-radius: 50%; /* or 50% */
     text-align: center;
 }
-.differ_text{
-   text-align: center; 
-   font-size: 150%; 
-   color: black;
-   font-weight: bold;
-  font-family: 'Baloo Bhaina', cursive; 
-}
+
 .differ_no{
     /*display: inline-block;*/ 
        width: 32%; 
@@ -93,6 +82,8 @@ body{
     font-size: 250%;
 
 }
+
+
 
 /*testimianl part*/
 .carousel-control.right, .carousel-control.left {
