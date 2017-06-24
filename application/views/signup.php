@@ -130,8 +130,8 @@
    <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav navbar-right">
 
-     <li><a href="../index.php">HOME</a></li>
-     <li><a href="../signup/signin.php">SIGN IN</a></li>
+     <li><a href="<?php echo base_url() ?>/index.php/Trial/index">HOME</a></li>
+     <li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
      <li><a href="signup.php">SIGN UP</a></li>
      <li><a href="logout.php">LOG OUT</a></li>
    </ul>
