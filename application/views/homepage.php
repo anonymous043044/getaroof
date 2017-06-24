@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</script>
 	<style>
 		
-		/*letter drop  style*/
+		/*letter drop this is style*/
 		
 	</style>
 
