@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#about">ABOUT</a></li>
 					<li><a href="#contact">CONTACT</a></li>
-					<li><a href="signup/signin.php">SIGN IN</a></li>
+					<li><a href="<?php  echo base_url(); ?>controllers/auth/signin">SIGN IN</a></li>
 					<li><a href="php/signup.php">SIGN UP</a></li>
 					<li><a href="#">LOG OUT</a></li>
 				</ul>
