@@ -191,19 +191,26 @@
   </div>
   <div class="box col-sm-4" style="background-color: white;"">
     
-    <span>'.$universalERR.'</span>
-    <form method="post" action="'.htmlspecialchars($_SERVER["PHP_SELF"]).'">
+    <?php  
+      echo '<label class="text-danger">'.$this->session->flashdata
+
+("error").'</label>';  
+                     ?>  
+    <form method="post" action="<?php echo base_url();?>.Auth/signin_validation">
     <div class="form-item">
     <label for="fname">Email</label>
-     <input type="text" class="username" name="EmailORUsername" placeholder="Enter Email" value="">'.$EmailORUsernameERR.'
+    <span><?php echo form_error('EmailORUsername'); ?></span>
+     <input type="text" class="username" name="EmailORUsername" placeholder="Enter Email Or Username" value="">
      </div><br>
      <div class="form-item">
      <label for="fname">Password</label>
-     <input type="password" class="password" name="Password" placeholder="Enter password" value="">'.$PasswordERR.'
+    <span><?php echo form_error('Password'); ?></span>
+
+     <input type="password" class="password" name="Password" placeholder="Enter password" value="">
      </div><br><br>
      <input type="submit" class="submitbutton btn btn-success btn-lg" name="Submit">
    </form>
-   '.$EmailORUsername. ' ' .$Password .'
+   
 
  </div>
  <div class="col-sm-4">
