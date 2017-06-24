@@ -132,7 +132,7 @@
 
      <li><a href="<?php echo base_url() ?>/index.php/Trial/index">HOME</a></li>
      <li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
-     <li><a href="signup.php">SIGN UP</a></li>
+     <li style="color: black !important; background-color: #FCFAFF !important;font-size: 16px;"><a href="#"><span style="color: black;">SIGN UP</span></a></li>
      <li><a href="logout.php">LOG OUT</a></li>
    </ul>
  </div>
