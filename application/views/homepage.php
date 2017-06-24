@@ -106,7 +106,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div id="filterup"></div>
 
 			<div id="filter">
-				<form action="php/nav.php" method="POST">
+				<form action="<?php echo base_url() ?>/index.php/auth/nav" method="POST">
 					<div class="container-fluid1 dropdown btn1">
 
 

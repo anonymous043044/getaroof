@@ -14,5 +14,17 @@
 			$this->load->helper('url');
 			$this->load->view('signup');
 		}
+		public function nav()
+		{
+			//have to display navbar ,footer and signup form
+			$this->load->helper('url');
+			$this->load->view('nav');
+		}
+		public function property_detail()
+		{
+			//have to display navbar ,footer and signup form
+			$this->load->helper('url');
+			$this->load->view('property_detail');
+		}
 	}
 ?>
