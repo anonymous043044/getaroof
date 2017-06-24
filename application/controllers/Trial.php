@@ -4,7 +4,8 @@
 	{
 		public function index()
 		{
-			$this->load->view('property_detail');
+			 $this->load->helper('url');
+			$this->load->view('homepage');
 
 		}
 	}
