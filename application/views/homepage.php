@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</script>
 	<style>
 		
-		/*letter drop  style*/
+		/*letter drop this is style*/
 		
 	</style>
 
@@ -84,8 +84,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#about">ABOUT</a></li>
 					<li><a href="#contact">CONTACT</a></li>
-					<li><a href="<?php  echo base_url(); ?>controllers/auth/signin">SIGN IN</a></li>
-					<li><a href="php/signup.php">SIGN UP</a></li>
+					<li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
+					<li><a href="<?php echo base_url() ?>/index.php/auth/signup">SIGN UP</a></li>
 					<li><a href="#">LOG OUT</a></li>
 				</ul>
 			</div>
@@ -106,7 +106,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div id="filterup"></div>
 
 			<div id="filter">
-				<form action="php/nav.php" method="POST">
+				<form action="<?php echo base_url() ?>/index.php/auth/nav" method="POST">
 					<div class="container-fluid1 dropdown btn1">
 
 
