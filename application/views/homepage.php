@@ -58,7 +58,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		});
 	</script>
 	<style>
-		
+	@media  screen  and (min-width:650px){
+		#yui1{
+			font-size: 60px;
+
+		}
+
+	}
+	@media  screen  and (max-width:650px){
+		#yui1{
+			font-size: 40px;
+		}
+
+	}
+		#yui1{
+			text-align: center;
+			padding-top: 200px;
+		}
 		/*letter drop this is style*/
 		
 	</style>
@@ -95,14 +111,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- this is the input start form   -->
 	<div id="navup"><!-- this is only for navbar id -->
-		<div id="yui">
-		<h1 style="padding-left: 35px;">company name </h1>
-		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-    <script src="<?= base_url('js/letter.js')?>"></script> 
+		<div id="yui1">
+		<span >company name </span>
+		
 		  </div>
 		<!-- filter buttons -->
-		<div class="subfilter" style="padding-top: 100px;">
+		<div class="subfilter" style=";">
 			<div id="filterup"></div>
 
 			<div id="filter">
@@ -148,9 +162,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<!-- this is what  we make differ -->
 		<div style="background-color: #EAE5F1; width: 100%;" class="container-fluid"><!-- background color -->
 			<div><!-- difference box-->
-				<p id="make_differ_text" style="margin-bottom: 20px">WE MAKE A DIFFERENCE</p>
+				<p id="make_differ_text" style="margin-bottom: 100px ; margin-top: 100px">WE MAKE A DIFFERENCE</p>
 			</div>
-			<div class="row" style="text-align: center;"><!-- make a differ -->
+			<div class="row" style="text-align: center; margin-top: 40px; margin-bottom: 40px;"><!-- make a differ -->
 				<div class="col-sm-4 " >
 					<p id="differ_text"> Total Saved money</p>
 					<div class="differ_border" style="padding-top: 10px; background-color: white;">
@@ -183,12 +197,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<!-- testominal  part start-->
 
-			<div><!-- testimonial-->
+			<div style="margin-bottom: 50px;"><!-- testimonial-->
 				<p id="make_differ_text">TESTIMONIAL</p>
 			</div>
 
 
-			<div id="myCarousel" class="carousel slide" data-ride="carousel"><!-- carousel start -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 50px;"><!-- carousel start -->
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>

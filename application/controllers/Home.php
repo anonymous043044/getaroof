@@ -5,7 +5,8 @@
 		public function index()
 		{
 			$this->load->view('homepage');
-						$this->load->view('footer');
+			$this->load->view('footer');
+						
 
 		}
 		public function search()
@@ -32,9 +33,9 @@
 				$this->load->view('property_template',$data);
 
 			}
+			
+
 			$this->load->view('footer');
-
-
 		}
 	}
 

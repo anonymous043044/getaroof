@@ -29,7 +29,7 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
 
-					<li><a href="<?php echo base_url() ?>/index.php/Trial/index">HOME</a></li>
+					<li><a href="<?php echo base_url() ?>/index.php/Home">HOME</a></li>
 					
 					<li><a href="#">My_Name</a></li>
 					<li><a href="logout.php">LOG OUT</a></li>
@@ -65,10 +65,12 @@
 
 
 					<select name="Budget" class="btn  btn-responsive xyz" ><!-- xyz for  styling -->
+
 						<option value="10000">Budget : All</option>
 						<option value="4000">Under 4000</option>
 						<option value="5000">Under 5000</option>
 						<option value="6000">Under 6000</option>
+
 					</select>
 				</div>
 				<div class="container-fluid1 btn4">
@@ -81,11 +83,6 @@
 		<div id="filterdown"></div>
 	</div>
 
-	
-	
-	
-	
-	</div>
-	
+
 </body>
 </html>
