@@ -135,36 +135,6 @@
 	</div>
 	
 	</div>
-	<!-- footer start -->
-		<footer class="footer-distributed">
-
-			<div class="footer-right">
-
-				<a href="https://www.facebook.com/tuskibansal"><i class="fa fa-facebook"></i></a>
-				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
-				<a href="https://www.linkedin.com/mynetwork/"><i class="fa fa-linkedin"></i></a>
-				<a href="https://github.com/anonymous043044/startup-bvp1.1"><i class="fa fa-github"></i></a>
-
-			</div>
-
-			<div class="footer-left">
-
-				<p class="footer-links">
-					<a href="<?php echo base_url() ?>/index.php/Trial/index">Home</a>
-					·
-					<a href="#about">About</a>
-					·
-					<a href="#contact">Contact</a>
-					·
-					<a href="signup/signin.php">Log Out</a>
-					
-					
-				</p>
-
-				<p>Company Name &copy; 2017</p>
-			</div>
-
-		</footer>
-		<!-- footer end  here -->
+	
 </body>
 </html>
