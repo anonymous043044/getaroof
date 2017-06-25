@@ -146,6 +146,7 @@
 
 
     </style>
+    <!-- nav bar scroll up down -->
     <script>
       $(document).ready(function(){
         $("#navup").click(function(){
@@ -228,5 +229,18 @@
  <div class="col-sm-4">
  </div>
 </div>
+  <script src="jquery.counterup.min.js"></script>
+  <script>
+    $(function() {$("body")
+      .on("input propertychange", ".form-item",function(e) {
+        $(this).toggleClass("form-item-filled",!! $(e.target).val());})
+      .on("focus", ".form-item",function() {
+        $(this).addClass("form-item-focused");})
+      .on("blur", ".form-item",function() {
+        $(this).removeClass("form-item-focused");});
+    });
+
+  </script>
+
   </body>
   </html>
