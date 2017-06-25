@@ -128,10 +128,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 						<select name="Budget" class="btn  btn-responsive xyz" ><!-- xyz for  styling -->
-							<option value="0<">Budget : All</option>
-							<option value="4000">4000<</option>
-							<option value="4+">4000+</option>
-							<option value="5+">5000+</option>
+							<option value="10000">Budget : All</option>
+							<option value="4000">Under 4000</option>
+							<option value="5000">Under 5000</option>
+							<option value="6000">Under 6000</option>
 						</select>
 					</div>
 					<div class="container-fluid1 btn4">
