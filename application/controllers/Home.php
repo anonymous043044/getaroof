@@ -17,14 +17,18 @@
 			$distanceupper=$this->input->post('Distance');
 			$distancelower=$distanceupper-2;
 			$rent=$this->input->post('Budget');
+
 			$result=$this->Search_model->getproperties($gender,$distancelower,$distanceupper,$rent);
+
 			foreach ($result->result() as $row)
 			{
-				$this->db->where('property_id',$row->property_id);
-				$query=$this->db->get('property_details');
-				$a=$query->row();
+				$a=$this->Search_model->getpropertydetails($row->property_id);
 				$data=array(
- 						'address'=>$a['property_address']
+ 						'address'=>$a->property_address,
+ 						'gender'=>$row->gender,
+ 						'rent'=>$row->rent_pm,
+ 						'total_seats'=>$a->property_total_beds,
+ 						'property_id'=>$row->property_id
 					);
 				$this->load->view('property_template',$data);
 

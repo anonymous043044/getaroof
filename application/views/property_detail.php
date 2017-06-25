@@ -72,55 +72,45 @@
 		</div>
 
 		<div id="details">
-			Food <br>
-			Water <br>
-			Secuity Money <br>
-			Furnishing  <br>
-			Electricity bill <br>
-			etc1 <br>
-			etc2	<br>
-			etc3 		<br>
-			gyser <br>
-			coole <br>
-			ac <br>
-			
+			Food  facility yes or no <br>
+			Secuity Money amount<br>
+			Drinking Water yes /no<br>
+			Water filter y/n
+			water availability(no of hours)
+			Furnishing full/semi/no <br>
+			Electricity bill included/not<br>
+			gyser yes/no <br>
+			cooler yes/no <br>
+			ac  yes/no<br>
+			room cleaning <br>
+			wifi<br>
+			tv<br>
+			REFRIGERATOR  <br>
+			power backup<br>
+			laundry<br>
+			no of bathroom<br>
+
+
+
+			total no of beds
+			free beds
+			goto this address link 
+<div>
+			owner details
+			name
+			phone no (intent to phone no)
+			email NOT AVAILABLE
+	</div>		
+		<div>	we suggest you to contact owner on call before visiting.</div>
+<div>option of reporting , report wrong info/broker </div>
+
 		</div>
 
 
 
 	</div>
 	
-	<!-- footer start -->
-		<footer class="footer-distributed">
-
-			<div class="footer-right">
-
-				<a href="https://www.facebook.com/tuskibansal"><i class="fa fa-facebook"></i></a>
-				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
-				<a href="https://www.linkedin.com/mynetwork/"><i class="fa fa-linkedin"></i></a>
-				<a href="https://github.com/anonymous043044/startup-bvp1.1"><i class="fa fa-github"></i></a>
-
-			</div>
-
-			<div class="footer-left">
-
-				<p class="footer-links">
-					<a href="<?php echo base_url() ?>/index.php/Trial/index">Home</a>
-					·
-					<a href="#about">About</a>
-					·
-					<a href="#contact">Contact</a>
-					·
-					<a href="signup/signin.php">Log Out</a>
-					
-					
-				</p>
-
-				<p>Company Name &copy; 2017</p>
-			</div>
-
-		</footer>
-		<!-- footer end  here -->
+	
 	
 </body>
 </html>
