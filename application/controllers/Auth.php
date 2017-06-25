@@ -38,12 +38,12 @@
 					{
 						//login successful
 						$this->session->set_userdata($data);
-						redirect(base_url().'Home/index');
+						redirect(base_url().'index.php/Home/index');
 					}
 					else
 					{
 						$this->session->set_userdata($data);
-						redirect(base_url().'Auth/signin');	
+						redirect(base_url().'index.php/Auth/signin');	
 						//login not successful
 					}
 				}
@@ -56,12 +56,12 @@
 					{
 						//login successful
 						$this->session->set_userdata($data);
-						redirect(base_url().'Home/index');
+						redirect(base_url().'index.php/Home/index');
 					}
 					else
 					{
 						$this->session->set_userdata($data);
-						redirect(base_url().'Auth/signin');	
+						redirect(base_url().'index.php/Auth/signin');	
 						//login not successful
 					}
 

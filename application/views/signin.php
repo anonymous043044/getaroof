@@ -196,7 +196,7 @@
 
 ("error").'</label>';  
                      ?>  
-    <form method="post" action="<?php echo base_url();?>.Auth/signin_validation">
+    <form method="post" action="<?php echo base_url();?>index.php/Auth/signin_validation">
     <div class="form-item">
     <label for="fname">Email</label>
     <span><?php echo form_error('EmailORUsername'); ?></span>
