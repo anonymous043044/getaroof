@@ -5,6 +5,7 @@
 		public function index()
 		{
 			$this->load->view('homepage');
+			$this->load->view('footer');
 						
 
 		}
