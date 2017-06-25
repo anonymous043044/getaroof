@@ -41,7 +41,7 @@
 		<div id="filterup"></div>
 
 		<div id="filter">
-			<form action="<?php echo base_url() ?>/index.php/auth/nav" method="POST">
+			<form action="<?php echo base_url(); ?>Home/search" method="POST">
 				<div class="container-fluid1 dropdown btn1">
 
 
@@ -83,56 +83,7 @@
 
 	
 	
-	<div id="results">
-		<div class="containerup" >
-
-		</div>
-
-		<div class="container" id="container1" >
-			<div id="firstbox">
-			<div id="address">Address:'</div>
-			<div id="goto"><a href="#">Goto</a></div>
-			</div>
-			<div class="container" id="container2">
-
-				<div class="boygirl">this is for</div>
-				<div class="rent">Rent:</div>
-			</div>
-			<div class="container" id="container3">
-				<div class="seats" >seats</div>
-				<div class="Details">Details</div>
-			</div>
-		</div>
-		<div class="containerdown" >
-
-		</div>
-	</div>
 	
-	</div>
-	<div id="results">
-		<div class="containerup" >
-
-		</div>
-
-		<div class="container" id="container1" >
-			<div id="firstbox">
-			<div id="address">Address:'</div>
-			<div id="goto"><a href="<?php echo base_url() ?>/index.php/auth/property_detail">Goto</a></div>
-			</div>
-			<div class="container" id="container2">
-
-				<div class="boygirl">this is for</div>
-				<div class="rent">Rent:</div>
-			</div>
-			<div class="container" id="container3">
-				<div class="seats" >seats</div>
-				<div class="Details">Details</div>
-			</div>
-		</div>
-		<div class="containerdown" >
-
-		</div>
-	</div>
 	
 	</div>
 	

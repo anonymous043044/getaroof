@@ -106,12 +106,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div id="filterup"></div>
 
 			<div id="filter">
-				<form action="<?php echo base_url() ?>/index.php/auth/nav" method="POST">
+				<form action="<?php echo base_url() ;?>index.php/Home/search" method="POST">
 					<div class="container-fluid1 dropdown btn1">
 
 
 						<select name="Gender" class="btn  btn-responsive xyz" style=""><!-- xyz for  styling -->
-							<option value="Any">Gender : Any</option>
+							<option value="Any" selected="true"> Any</option>
 							<option value="Male">Male</option>
 							<option value="Female">Female</option>
 						</select>
@@ -119,11 +119,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="container-fluid1 btn2">
 
 						<select name="Distance" class="btn  btn-responsive xyz"  ><!-- xyz for  styling -->
-							<option value="0">Distance:All</option>
-
 							<option value="3">1-3 km</option>
 							<option value="5">3-5 km</option>
-							<option value="7">5-7 km</option>
+							<option value="7" selected="true">5-7 km</option>
 						</select>
 					</div>
 					<div class="container-fluid1 btn3">
@@ -131,7 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 						<select name="Budget" class="btn  btn-responsive xyz" ><!-- xyz for  styling -->
 							<option value="0<">Budget : All</option>
-							<option value="4<">4000<</option>
+							<option value="4000">4000<</option>
 							<option value="4+">4000+</option>
 							<option value="5+">5000+</option>
 						</select>
@@ -371,37 +369,7 @@ It so happened that they met through Gaurav’s ex-IIT batchmate at the time whe
 
 
 		<!-- footer start -->
-		<footer class="footer-distributed">
-
-			<div class="footer-right">
-
-				<a href="https://www.facebook.com/tuskibansal"><i class="fa fa-facebook"></i></a>
-				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
-				<a href="https://www.linkedin.com/mynetwork/"><i class="fa fa-linkedin"></i></a>
-				<a href="https://github.com/anonymous043044/startup-bvp1.1"><i class="fa fa-github"></i></a>
-
-			</div>
-
-			<div class="footer-left">
-
-				<p class="footer-links">
-					<a href="#">Home</a>
-					·
-					<a href="#about">About</a>
-					·
-					<a href="#contact">Contact</a>
-					·
-					<a href="signup/signin.php">Sign In</a>
-					·
-					<a href="php/signup.php">Sign Up</a>
-					
-				</p>
-
-				<p>Company Name &copy; 2017</p>
-			</div>
-
-		</footer>
-		<!-- footer end  here -->
+		
 
 	</div><!-- navbar id end to  up -->
 
