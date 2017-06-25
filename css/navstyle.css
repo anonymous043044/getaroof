@@ -3,7 +3,7 @@ body{
     overflow-y: scroll;
 
 }
-
+/*navbar ki startig*/
 .navbar {
     margin-bottom: 0;
     /* background-color: #292c2f;*/
@@ -33,7 +33,8 @@ body{
     border-color: transparent;
     color: #fff !important;
 }
-
+/*navbar ki ending */
+/*button ki starting*/
 
 .subfilter{
     display: flex;
@@ -67,7 +68,7 @@ body{
     @media  screen  and (max-width:650px){
         .subfilter{
             margin-top: 100px;
-            margin-bottom: 100px;
+            padding-bottom: 100px;
 
         }
         #filter{
@@ -109,7 +110,7 @@ body{
     @media  screen  and (min-width:650px){
         .subfilter{
             margin-top: 100px;
-            margin-bottom: 100px;
+            padding-bottom: 100px;
         }
         .xyz{
             padding: 8px 8px;
@@ -151,7 +152,7 @@ body{
     @media  screen  and (max-width:350px){
         .subfilter{
             margin-top: 100px;
-            margin-bottom: 100px;
+            padding-bottom: 100px;
 
         }
         #filter{
@@ -176,75 +177,10 @@ body{
 
    
 
-
+/*buttons ki ending */
     
     /*results begin  heree*/
 
-#results{
-    display: flex;
-        flex-wrap: wrap;
-        margin: 30px;
-}
-@media  screen  and (min-width:750px){
-    #containerup{
-        order: 0;
-        width: 25%;
-    }
-    #container1{
-        order: 1;
-        width: 50%;
-    }
-    #containerdown{
-        order: 2;
-        width: 25%;
-    }
-}
-@media  screen  and (min-width:400px){
-
-   #containerup{
-        order: 0;
-        width: 10%;
-    }
-    #container1{
-        order: 1;
-        width: 80%;
-    }
-    #containerdown{
-        order: 2;
-        width: 10%;
-    }
-}
-@media screen and (max-width:400px){
-    #container1{
-        width: 100%;
-    }
-}
-
-    #container1{
-        display: flex;
-        flex-wrap: wrap;
-         border-style: solid;border-width: 1px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
- 
-   
-    #container1:hover {
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    }
-
-#firstbox{
-    display: flex;
-        flex-wrap: wrap;
-}
-#address{
-    order: 0;
-    width: 90%;
-}
-#goto{
-    order: 1;
-    width: 10%;
-}
 
 
 
