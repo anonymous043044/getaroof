@@ -58,7 +58,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		});
 	</script>
 	<style>
-		
+	@media  screen  and (min-width:650px){
+		#yui1{
+			font-size: 60px;
+
+		}
+
+	}
+	@media  screen  and (max-width:650px){
+		#yui1{
+			font-size: 40px;
+		}
+
+	}
+		#yui1{
+			text-align: center;
+			padding-top: 200px;
+		}
 		/*letter drop this is style*/
 		
 	</style>
@@ -95,23 +111,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- this is the input start form   -->
 	<div id="navup"><!-- this is only for navbar id -->
-		<div id="yui">
-		<h1 style="padding-left: 35px;">company name </h1>
-		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-    <script src="<?= base_url('js/letter.js')?>"></script> 
+		<div id="yui1">
+		<span >company name </span>
+		
 		  </div>
 		<!-- filter buttons -->
-		<div class="subfilter" style="padding-top: 100px;">
+		<div class="subfilter" style=";">
 			<div id="filterup"></div>
 
 			<div id="filter">
-				<form action="<?php echo base_url() ?>/index.php/auth/nav" method="POST">
+				<form action="<?php echo base_url() ;?>index.php/Home/search" method="POST">
 					<div class="container-fluid1 dropdown btn1">
 
 
 						<select name="Gender" class="btn  btn-responsive xyz" style=""><!-- xyz for  styling -->
-							<option value="Any">Gender : Any</option>
+							<option value="Any" selected="true"> Any</option>
 							<option value="Male">Male</option>
 							<option value="Female">Female</option>
 						</select>
@@ -119,11 +133,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="container-fluid1 btn2">
 
 						<select name="Distance" class="btn  btn-responsive xyz"  ><!-- xyz for  styling -->
-							<option value="0">Distance:All</option>
-
 							<option value="3">1-3 km</option>
 							<option value="5">3-5 km</option>
-							<option value="7">5-7 km</option>
+							<option value="7" selected="true">5-7 km</option>
 						</select>
 					</div>
 					<div class="container-fluid1 btn3">
@@ -131,7 +143,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 						<select name="Budget" class="btn  btn-responsive xyz" ><!-- xyz for  styling -->
 							<option value="0<">Budget : All</option>
-							<option value="4<">4000<</option>
+							<option value="4000">4000<</option>
 							<option value="4+">4000+</option>
 							<option value="5+">5000+</option>
 						</select>
@@ -150,9 +162,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<!-- this is what  we make differ -->
 		<div style="background-color: #EAE5F1; width: 100%;" class="container-fluid"><!-- background color -->
 			<div><!-- difference box-->
-				<p id="make_differ_text" style="margin-bottom: 20px">WE MAKE A DIFFERENCE</p>
+				<p id="make_differ_text" style="margin-bottom: 100px ; margin-top: 100px">WE MAKE A DIFFERENCE</p>
 			</div>
-			<div class="row" style="text-align: center;"><!-- make a differ -->
+			<div class="row" style="text-align: center; margin-top: 40px; margin-bottom: 40px;"><!-- make a differ -->
 				<div class="col-sm-4 " >
 					<p id="differ_text"> Total Saved money</p>
 					<div class="differ_border" style="padding-top: 10px; background-color: white;">
@@ -185,12 +197,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<!-- testominal  part start-->
 
-			<div><!-- testimonial-->
+			<div style="margin-bottom: 50px;"><!-- testimonial-->
 				<p id="make_differ_text">TESTIMONIAL</p>
 			</div>
 
 
-			<div id="myCarousel" class="carousel slide" data-ride="carousel"><!-- carousel start -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 50px;"><!-- carousel start -->
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -371,37 +383,7 @@ It so happened that they met through Gaurav’s ex-IIT batchmate at the time whe
 
 
 		<!-- footer start -->
-		<footer class="footer-distributed">
-
-			<div class="footer-right">
-
-				<a href="https://www.facebook.com/tuskibansal"><i class="fa fa-facebook"></i></a>
-				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
-				<a href="https://www.linkedin.com/mynetwork/"><i class="fa fa-linkedin"></i></a>
-				<a href="https://github.com/anonymous043044/startup-bvp1.1"><i class="fa fa-github"></i></a>
-
-			</div>
-
-			<div class="footer-left">
-
-				<p class="footer-links">
-					<a href="#">Home</a>
-					·
-					<a href="#about">About</a>
-					·
-					<a href="#contact">Contact</a>
-					·
-					<a href="signup/signin.php">Sign In</a>
-					·
-					<a href="php/signup.php">Sign Up</a>
-					
-				</p>
-
-				<p>Company Name &copy; 2017</p>
-			</div>
-
-		</footer>
-		<!-- footer end  here -->
+		
 
 	</div><!-- navbar id end to  up -->
 
