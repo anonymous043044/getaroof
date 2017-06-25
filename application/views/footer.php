@@ -3,7 +3,7 @@
 ?>
 <!DOCTYPE html>
 <html>
-<head>
+<!-- <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -13,7 +13,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/footer.css">
-</head>
+</head> -->
 <body>
 	
 
