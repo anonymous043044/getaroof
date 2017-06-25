@@ -41,7 +41,7 @@
 		<div id="filterup"></div>
 
 		<div id="filter">
-			<form action="<?php echo base_url() ?>/index.php/auth/nav" method="POST">
+			<form action="<?php echo base_url(); ?>Home/search" method="POST">
 				<div class="container-fluid1 dropdown btn1">
 
 
@@ -83,88 +83,9 @@
 
 	
 	
-	<div id="results">
-		<div class="containerup" >
-
-		</div>
-
-		<div class="container" id="container1" >
-			<div id="firstbox">
-			<div id="address">Address:'</div>
-			<div id="goto"><a href="#">Goto</a></div>
-			</div>
-			<div class="container" id="container2">
-
-				<div class="boygirl">this is for</div>
-				<div class="rent">Rent:</div>
-			</div>
-			<div class="container" id="container3">
-				<div class="seats" >seats</div>
-				<div class="Details">Details</div>
-			</div>
-		</div>
-		<div class="containerdown" >
-
-		</div>
-	</div>
+	
 	
 	</div>
-	<div id="results">
-		<div class="containerup" >
-
-		</div>
-
-		<div class="container" id="container1" >
-			<div id="firstbox">
-			<div id="address">Address:'</div>
-			<div id="goto"><a href="<?php echo base_url() ?>/index.php/auth/property_detail">Goto</a></div>
-			</div>
-			<div class="container" id="container2">
-
-				<div class="boygirl">this is for</div>
-				<div class="rent">Rent:</div>
-			</div>
-			<div class="container" id="container3">
-				<div class="seats" >seats</div>
-				<div class="Details">Details</div>
-			</div>
-		</div>
-		<div class="containerdown" >
-
-		</div>
-	</div>
 	
-	</div>
-	<!-- footer start -->
-		<footer class="footer-distributed">
-
-			<div class="footer-right">
-
-				<a href="https://www.facebook.com/tuskibansal"><i class="fa fa-facebook"></i></a>
-				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
-				<a href="https://www.linkedin.com/mynetwork/"><i class="fa fa-linkedin"></i></a>
-				<a href="https://github.com/anonymous043044/startup-bvp1.1"><i class="fa fa-github"></i></a>
-
-			</div>
-
-			<div class="footer-left">
-
-				<p class="footer-links">
-					<a href="<?php echo base_url() ?>/index.php/Trial/index">Home</a>
-					·
-					<a href="#about">About</a>
-					·
-					<a href="#contact">Contact</a>
-					·
-					<a href="signup/signin.php">Log Out</a>
-					
-					
-				</p>
-
-				<p>Company Name &copy; 2017</p>
-			</div>
-
-		</footer>
-		<!-- footer end  here -->
 </body>
 </html>
