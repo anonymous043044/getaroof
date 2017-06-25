@@ -5,14 +5,22 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="home.ico"/>
-	
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url(); ?>images/home.ico"/>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href="navstylae.css"> -->
-	<link rel="stylesheet" type="text/css" href="fake.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/fake.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/footer.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/font-style.css">
+	<style>
+		#rent{
+			font-size: 40px;
+			font-family: 'Mogra', cursive;
+		}
+	</style>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -27,11 +35,9 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-
-					<li><a href="../index.php">HOME</a></li>
-					
-					<li><a href="#">My_Name</a></li>
-					<li><a href="logout.php">LOG OUT</a></li>
+				<li><a href="<?php echo base_url() ?>/index.php/Trial/index">HOME</a></li>
+				<li><a href="#">My_Name</a></li>
+				<li><a href="logout.php">LOG OUT</a></li>
 				</ul>
 			</div>
 		</div>
@@ -49,18 +55,18 @@
 			</div>
 		</div>
 	</div>
-	<div id="image_info">
+	<div id="image_info" style="margin-bottom: 100px;">
 		<div id="images">
-			<div id="image1">
+			<div id="image1" class="center-block img-thumbnail" >
 				<img src="https://placekitten.com/g/320/220" class="img-responsive" >
 			</div>
-			<div id="image2">
+			<div id="image2" class="center-block img-thumbnail">
 				<img src="https://placekitten.com/g/320/220" class="img-responsive">
 			</div>
-			<div id="image3">
+			<div id="image3" class="center-block img-thumbnail">
 				<img src="https://placekitten.com/g/320/220" class="img-responsive">
 			</div>
-			<div id="image4">
+			<div id="image4" class="center-block img-thumbnail">
 				<img src="https://placekitten.com/g/320/220" class="img-responsive">
 			</div>
 		</div>
@@ -83,6 +89,38 @@
 
 
 	</div>
+	
+	<!-- footer start -->
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.facebook.com/tuskibansal"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/mynetwork/"><i class="fa fa-linkedin"></i></a>
+				<a href="https://github.com/anonymous043044/startup-bvp1.1"><i class="fa fa-github"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a href="<?php echo base_url() ?>/index.php/Trial/index">Home</a>
+					·
+					<a href="#about">About</a>
+					·
+					<a href="#contact">Contact</a>
+					·
+					<a href="signup/signin.php">Log Out</a>
+					
+					
+				</p>
+
+				<p>Company Name &copy; 2017</p>
+			</div>
+
+		</footer>
+		<!-- footer end  here -->
 	
 </body>
 </html>

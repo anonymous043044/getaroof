@@ -146,6 +146,7 @@
 
 
     </style>
+    <!-- nav bar scroll up down -->
     <script>
       $(document).ready(function(){
         $("#navup").click(function(){
@@ -196,7 +197,7 @@
 
 ("error").'</label>';  
                      ?>  
-    <form method="post" action="<?php echo base_url();?>.Auth/signin_validation">
+    <form method="post" action="<?php echo base_url();?>index.php/Auth/signin_validation">
     <div class="form-item">
     <label for="fname">Email</label>
     <span><?php echo form_error('EmailORUsername'); ?></span>
@@ -228,5 +229,18 @@
  <div class="col-sm-4">
  </div>
 </div>
+  <script src="jquery.counterup.min.js"></script>
+  <script>
+    $(function() {$("body")
+      .on("input propertychange", ".form-item",function(e) {
+        $(this).toggleClass("form-item-filled",!! $(e.target).val());})
+      .on("focus", ".form-item",function() {
+        $(this).addClass("form-item-focused");})
+      .on("blur", ".form-item",function() {
+        $(this).removeClass("form-item-focused");});
+    });
+
+  </script>
+
   </body>
   </html>
