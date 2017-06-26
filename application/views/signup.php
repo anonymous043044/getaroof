@@ -10,7 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-    body{
+    body , html{
       overflow-x: hidden;
       
     }
@@ -130,7 +130,7 @@
    <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav navbar-right">
 
-     <li><a href="<?php echo base_url() ?>/index.php/Trial/index">HOME</a></li>
+     <li><a href="<?php echo base_url() ?>/index.php/Home">HOME</a></li>
      <li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
      <li style=" background-color: #FCFAFF !important;font-size: 16px;"><a href="#"><span style="color: black;">SIGN UP</span></a></li>
      <li><a href="logout.php">LOG OUT</a></li>
