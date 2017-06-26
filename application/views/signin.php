@@ -13,6 +13,10 @@
 
 
   <style>
+  html{
+      overflow-x: hidden;
+  }
+
     body{
       background-color: #6CEC83;
       overflow-x: hidden;
@@ -175,7 +179,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
 
-            <li><a href="<?php echo base_url() ?>/index.php/Trial/index">HOME</a></li>
+            <li><a href="<?php echo base_url() ?>/index.php/home">HOME</a></li>
             <li style="color: black !important; background-color: #FCFAFF !important;font-size: 16px;"><a  href="#"><span style="color: black;">SIGN IN</span></a></li>
             <li><a href="<?php echo base_url() ?>/index.php/auth/signup">SIGN UP</a></li>
             <li><a href="../php/logout.php">LOG OUT</a></li>

@@ -58,6 +58,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		});
 	</script>
 	<style>
+	html , body{
+			overflow-x: hidden;
+	}
+
 	@media  screen  and (min-width:650px){
 		#yui1{
 			font-size: 60px;

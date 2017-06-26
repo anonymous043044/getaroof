@@ -42,13 +42,14 @@
 			order: 0;
 			width: 80%;
 			font-size: 22px;
+			padding: 10px;
 		}
 		#reach{
 			order: 1;
 			width: 20%;
 			font-size: 22px;
 			text-align: center;
-
+			padding: 10px;
 		}
 		#boygirl{
 			font-size: 20px;
@@ -60,6 +61,7 @@
 			border-radius: 3px;
 			text-align: center;
 			font-weight: bold;
+			padding: 5px;
 		}
 		#rent{
 			font-size: 20px;
@@ -70,6 +72,7 @@
 			border-radius: 3px;
 			text-align: center;
 			font-weight: bold;
+			padding: 5px;
 		}
 		#free{
 			order: 0;
@@ -109,12 +112,14 @@
 			order: 0;
 			width: 80%;
 			font-size: 22px;
+			padding: 10px;
 		}
 		#reach{
 			order: 1;
 			width: 20%;
 			font-size: 22px;
 			text-align: center;
+			padding: 10px;
 		}
 		#boygirl{
 			font-size: 20px;
@@ -126,6 +131,7 @@
 			border-radius: 3px;
 			text-align: center;
 			font-weight: bold;
+			padding: 5px;
 		}
 		#rent{
 			font-size: 20px;
@@ -136,6 +142,7 @@
 			border-radius: 3px;
 			text-align: center;
 			font-weight: bold;
+			padding: 5px;
 		}
 		#free{
 			order: 0;
@@ -176,11 +183,13 @@
 			order: 0;
 			width: 100%;
 			font-size: 22px;
+			padding: 5px;
 		}
 		#reach{
 			order: 1;
 			width: 100%;
 			font-size: 22px;
+			padding: 5px;
 			}
 		#boygirl{
 			font-size: 15px;
@@ -233,7 +242,7 @@
 
 
 		if($(window).width() < 500){
-			$("#reach").text(" Go to Destination");
+			$("#reach1").text(" Go to Destination");
 		}
 	});
 		
@@ -241,10 +250,10 @@
 </head>
 <body>	<div id="father">
 		<div id="super"></div>
-		<div id="main_box">
+		<div id="main_box" style="margin-bottom: 50px;">
 		  	<div id="box1">
 		  		<div id="address" >Address : <?php echo $address; ?></div>
-		  		<div id="reach" ><a href="">Reach</a></div>
+		  		<div id="reach" ><a href="" id="reach1">Reach</a></div>
 		  	</div>
 		  	<div id="box2">
 		  		<div id="boygirl" >Gender : <?php echo $gender; ?></div>

@@ -35,9 +35,9 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-				<li><a href="<?php echo base_url() ?>/index.php/Trial/index">HOME</a></li>
-				<li><a href="#">My_Name</a></li>
-				<li><a href="logout.php">LOG OUT</a></li>
+					<li><a href="<?php echo base_url() ?>/index.php/home">HOME</a></li>
+					<li><a href="#">My_Name</a></li>
+					<li><a href="logout.php">LOG OUT</a></li>
 				</ul>
 			</div>
 		</div>
@@ -95,14 +95,14 @@
 			total no of beds
 			free beds
 			goto this address link 
-<div>
-			owner details
-			name
-			phone no (intent to phone no)
-			email NOT AVAILABLE
-	</div>		
-		<div>	we suggest you to contact owner on call before visiting.</div>
-<div>option of reporting , report wrong info/broker </div>
+			<div>
+				owner details
+				name
+				phone no (intent to phone no)
+				email NOT AVAILABLE
+			</div>		
+			<div>	we suggest you to contact owner on call before visiting.</div>
+			<div>option of reporting , report wrong info/broker </div>
 
 		</div>
 
