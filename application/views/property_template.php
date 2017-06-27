@@ -1,5 +1,9 @@
 <head>
 	<style>
+
+	html{
+		overflow-x: hidden;
+	}
 	#father{
 		display: flex;
 	flex-wrap: wrap;

@@ -16,6 +16,14 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/footer.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/font-style.css">
 	<style>
+		html{
+			overflow-x: hidden;
+
+		}
+		body{
+			overflow-x: hidden;
+
+		}
 		#rent{
 			font-size: 40px;
 			font-family: 'Mogra', cursive;
