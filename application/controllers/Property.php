@@ -18,7 +18,7 @@
 
 
 			$id = filter_var($_SERVER['PHP_SELF'], FILTER_SANITIZE_NUMBER_INT);
-			$a=$this->Search_model->getpropertydetails($id);
+			/*$a=$this->Search_model->getpropertydetails($id)*/;
 
 			$this->load->view('property_detail',$data);
 			$this->load->view('footer');
