@@ -16,9 +16,20 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/footer.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/font-style.css">
 	<style>
+		html{
+			overflow-x: hidden;
+
+		}
+		body{
+			overflow-x: hidden;
+
+		}
 		#rent{
 			font-size: 40px;
 			font-family: 'Mogra', cursive;
+		}
+		#detail  span{
+			font-size: 30px;
 		}
 	</style>
 </head>
@@ -72,28 +83,27 @@
 		</div>
 
 		<div id="details">
-			Food  facility yes or no <br>
-			Secuity Money amount<br>
-			Drinking Water yes /no<br>
-			Water filter y/n
-			water availability(no of hours)
-			Furnishing full/semi/no <br>
-			Electricity bill included/not<br>
-			gyser yes/no <br>
-			cooler yes/no <br>
-			ac  yes/no<br>
-			room cleaning <br>
-			wifi<br>
-			tv<br>
-			REFRIGERATOR  <br>
-			power backup<br>
-			laundry<br>
-			no of bathroom<br>
 
-
-
-			total no of beds
-			free beds
+			<span>Food  facility</span> yes or no <br>
+			<span>Secuity Money</span> amount<br>
+			<span>Drinking Water</span> yes /no<br>
+			<span>Water filter</span> y/n
+			<span>water availability</span>(no of hours)
+			<span>Furnishing </span>full/semi/no <br>
+			<span>Electricity bill</span> included/not<br>
+			<span>gyser </span>yes/no <br>
+			<span>cooler</span> yes/no <br>
+			<span>AC</span>  yes/no<br>
+			<span>room cleaning</span> <br>
+			<span>wifi</span><br>
+			<span>tv</span><br>
+			<span>REFRIGERATOR</span>  <br>
+			<span>power backup</span><br>
+			<span>power backup</span><br>
+			<span>no of bathroom</span><br>
+			<span>total no of beds </span><br>
+			<span>free beds </span><br>
+			
 			goto this address link 
 			<div>
 				owner details
