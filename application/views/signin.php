@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <title>SIGN IN</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="home.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>images/home.ico" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -13,6 +13,10 @@
 
 
   <style>
+  html{
+      overflow-x: hidden;
+  }
+
     body{
       background-color: #6CEC83;
       overflow-x: hidden;
@@ -175,7 +179,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
 
-            <li><a href="<?php echo base_url() ?>/index.php/Trial/index">HOME</a></li>
+            <li><a href="<?php echo base_url() ?>/index.php/home">HOME</a></li>
             <li style="color: black !important; background-color: #FCFAFF !important;font-size: 16px;"><a  href="#"><span style="color: black;">SIGN IN</span></a></li>
             <li><a href="<?php echo base_url() ?>/index.php/auth/signup">SIGN UP</a></li>
             <li><a href="../php/logout.php">LOG OUT</a></li>

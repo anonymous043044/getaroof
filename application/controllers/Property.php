@@ -16,13 +16,39 @@
 
 
 
-
+			
 			$id = filter_var($_SERVER['PHP_SELF'], FILTER_SANITIZE_NUMBER_INT);
-			$a=$this->Search_model->getpropertydetails($id);
-
-			$this->load->view('property_detail',$data);
+			//$a=$this->Search_model->getpropertydetails($id);
+			$data = file_get_contents('http://localhost/startup/index.php/property/propertydetails?property_id='.$id);
+			$result=json_decode($data);
+			//echo $result['data'];
+			echo $result->data->food ;
+			$this->load->view('property_detail',$result->data);
 			$this->load->view('footer');
 		}
+
+		public function propertydetails()
+		{
+			$id=$_REQUEST['property_id'];
+			$this->load->Model('Property_model');
+			$response=$this->Property_model->getdetails($id);
+			$data=json_encode($response);
+			echo $data;
+
+			//return json_encode($response);
+			/*if($response->status==true)
+			{
+				$response=$data;
+			}	
+			else
+			{
+				$response
+			}*/
+			//
+
+
+		}
+
 	}
 
 ?>
