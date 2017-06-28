@@ -114,7 +114,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- this is the input start form   -->
 	<div id="navup"><!-- this is only for navbar id -->
 		<div id="yui1">
-		<span >company name </span>
+		<span >getaroof </span>
 		
 		  </div>
 		<!-- filter buttons -->
