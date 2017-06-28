@@ -275,7 +275,7 @@
 	</div>
 	<h3 class="text-center">Details</h3>
 	<?php 
-$food = "0";
+/*$food = "1";
 $water = "0";
 $water_facility = "0";
 $filter = "0";
@@ -289,8 +289,8 @@ $wifi = "0";
 $REFRIGERATOR = "0";
 $tv = "0";
 $power = "0";
-
-
+*/
+//echo "hey ".$food;
 
 ?>
 	<div id="get_details">

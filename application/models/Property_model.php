@@ -6,36 +6,59 @@
 			$this->db->where('property_id',$id);
 			$query=$this->db->get('property_full_details');
 			if ($query->num_rows()) 
-			{
+			{	
+				$response['status']=true;
+				$response['message']="successful attempt";
+				$a=$query->row();
 				$data=array(
-					'status'=>true,
-					'food'=>$query->food_prov,
-					'drinking_water'=>$query->drinkingwater_prov,
-					'filter_prov'=>$query->filter_prov,
-					'furnishing_type'=>$query->furnishing_type,
-					'elec_bill'=>$query->elec_bill,
-					'geyser'=>$query->geyser,
-					'cooler'=>$query->cooler,
-					'ac'=>$query->ac,
-					'room_cleaning'=>$query->room_cleaning,
-					'wifi'=>$query->wifi,
-					'tv'=>$query->tv,
-					'fridge'=>$query->fridge,
-					'power_backup'=>$query->power_backup,
-					'laundry'=>$query->laundry,
-					'no_of_bathroom'=>$query->no_of_bathroom,
-					'timestamp'=>$query->timestamp
+					
+					'food'=>$a->food_prov,
+					'drinking_water'=>$a->drinkingwater_prov,
+					'filter_prov'=>$a->filter_prov,
+					'furnishing_type'=>$a->furnishing_type,
+					'elec_bill'=>$a->elec_bill,
+					'geyser'=>$a->geyser,
+					'cooler'=>$a->cooler,
+					'ac'=>$a->ac,
+					'room_cleaning'=>$a->room_cleaning,
+					'wifi'=>$a->wifi,
+					'tv'=>$a->tv,
+					'fridge'=>$a->fridge,
+					'power_backup'=>$a->power_backup,
+					'laundry'=>$a->laundry,
+					'no_of_bathroom'=>$a->no_of_bathroom,
+					'timestamp'=>$a->timestamp
 					);	
+				$response['data']=$data;
 
 			}
 
 			else 
 			{
+				
+				$response['status']=false;
+				$response['message']="unsuccessful attempt";
 				$data=array(
-					'status'=>false
+					'food'=>"",
+					'drinking_water'=>"",
+					'filter_prov'=>"",
+					'furnishing_type'=>"",
+					'elec_bill'=>"",
+					'geyser'=>"",
+					'cooler'=>"",
+					'ac'=>"",
+					'room_cleaning'=>"",
+					'wifi'=>"",
+					'tv'=>"",
+					'fridge'=>"",
+					'power_backup'=>"",
+					'laundry'=>"",
+					'no_of_bathroom'=>"",
+					'timestamp'=>""
 					);
+				$response['data']=$data;
 			}
-			
+			return $response;
 
 
 
