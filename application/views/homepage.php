@@ -18,13 +18,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Chewy|Finger+Paint|Indie+Flower|Mogra|Pacifico|Pangolin|Permanent+Marker|Spectral" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/letterdrop.css">
-   <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/stylelearning.css">
-   <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/filter.css">
-   <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/footer.css">
-   <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/font-style.css">
+	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/stylelearning.css">
+	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/filter.css">
+	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/footer.css">
+	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/font-style.css">
 
 	<script type = 'text/javascript' src = "<?php echo base_url();?>js/jquery.counterup.min.js"></script>
-   	<script type = 'text/javascript' src = "<?php echo base_url();?>js/letter.js"></script>
+	<script type = 'text/javascript' src = "<?php echo base_url();?>js/letter.js"></script>
 
 	<!-- on hold check the naming  -->
 	<!-- page refresh at see from top -->
@@ -58,21 +58,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		});
 	</script>
 	<style>
-	
 
-	@media  screen  and (min-width:650px){
-		#yui1{
-			font-size: 60px;
+
+		@media  screen  and (min-width:650px){
+			#yui1{
+				font-size: 60px;
+
+			}
 
 		}
+		@media  screen  and (max-width:650px){
+			#yui1{
+				font-size: 40px;
+			}
 
-	}
-	@media  screen  and (max-width:650px){
-		#yui1{
-			font-size: 40px;
 		}
-
-	}
 		#yui1{
 			text-align: center;
 			padding-top: 200px;
@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 				</button>
-				<a class="navbar-brand" href="#myPage">Logo</a>
+				<a class="navbar-brand"  href="#myPage">GetaRoof.com</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
@@ -114,9 +114,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- this is the input start form   -->
 	<div id="navup"><!-- this is only for navbar id -->
 		<div id="yui1">
-		<span >getaroof </span>
-		
-		  </div>
+			<span >getaroof </span>
+
+		</div>
 		<!-- filter buttons -->
 		<div class="subfilter" style=";">
 			<div id="filterup"></div>
@@ -330,86 +330,86 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<span style="color: black" id="about_heading">ABOUT US</span>
 			</div>
 			<div class="col-sm-8" style="
-        padding-left: 30px;
-    padding-right: 30px;" id="about_font">
-				Neelabh is an investment banker specialising in mergers and acquisitions and public market fund raising.
+			padding-left: 30px;
+			padding-right: 30px;" id="about_font">
+			Neelabh is an investment banker specialising in mergers and acquisitions and public market fund raising.
 
-After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
+			After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
 
-This was the time when fund houses (and mutual funds) were coming of age in the early 2000s. In his previous role, Neelabh was an investment banker with Enam Capital, now Axis Capital, after acquisition by Axis Bank.
+			This was the time when fund houses (and mutual funds) were coming of age in the early 2000s. In his previous role, Neelabh was an investment banker with Enam Capital, now Axis Capital, after acquisition by Axis Bank.
 
-On the other end of the spectrum is Gaurav, an IIT Delhi and Booth School of Business graduate, who worked as a proprietary portfolio manager with Morgan Stanley across asset classes, commodities, and debt.
+			On the other end of the spectrum is Gaurav, an IIT Delhi and Booth School of Business graduate, who worked as a proprietary portfolio manager with Morgan Stanley across asset classes, commodities, and debt.
 
-It so happened that they met through Gaurav’s ex-IIT batchmate at the time when they were both contemplating entrepreneurship. Around August 2015, t
+			It so happened that they met through Gaurav’s ex-IIT batchmate at the time when they were both contemplating entrepreneurship. Around August 2015, t
 
- 	 .
+			.
+		</div>
+	</div>
+
+	<!-- contact -->
+	<div id="contact">
+		<br> <br>
+		<div class="row slideanim" >
+			<a name="contact"></a>
+			<div class="col-md-6 inputcontact" >
+
+
+				<p class="text-center" style=" font-size: 40px;
+				font-family: 'Mogra', cursive;">CONTACT</p>
+				<form>
+					<div class="form-item">
+						<label for="fname">NAME</label>
+						<input type="text" id="fname" name="fname" placeholder="NAME " autocomplete="off" style="outline: 0;">
+					</div>
+					<div class="form-item">
+						<label for="email">EMAIL ID</label>
+						<input type="text" id="lname" name="email" placeholder="xyz@abc.com" autocomplete="off" style="outline: 0;">
+					</div>
+					<div class="form-item">
+						<label for="email">MESSAGE</label>
+						<textarea placeholder="say something" class="messagetext" autocomplete="off" style="outline: 0;"></textarea>
+					</div>
+					<div>
+						<a href="mailto:tuskibansal@gmail.com"><input type="submit" name="SUBMIT"></a>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-6 inputcontact text-center">
+				<p style=" font-size: 40px;
+				font-family: 'Mogra', cursive;">OUR MOTO</p> 
+				<p>ssdjs sjdsd ssjdhasj ssjdhas  <br> sjd jsadbasd </p>
 			</div>
 		</div>
-
-		<!-- contact -->
-		<div id="contact">
-			<br> <br>
-			<div class="row slideanim" >
-				<a name="contact"></a>
-				<div class="col-md-6 inputcontact" >
+	</div>
+	<!-- contact end here -->
 
 
-					<p class="text-center" style=" font-size: 40px;
-  font-family: 'Mogra', cursive;">CONTACT</p>
-					<form>
-						<div class="form-item">
-							<label for="fname">NAME</label>
-							<input type="text" id="fname" name="fname" placeholder="NAME " autocomplete="off" style="outline: 0;">
-						</div>
-						<div class="form-item">
-							<label for="email">EMAIL ID</label>
-							<input type="text" id="lname" name="email" placeholder="xyz@abc.com" autocomplete="off" style="outline: 0;">
-						</div>
-						<div class="form-item">
-							<label for="email">MESSAGE</label>
-							<textarea placeholder="say something" class="messagetext" autocomplete="off" style="outline: 0;"></textarea>
-						</div>
-						<div>
-							<a href="mailto:tuskibansal@gmail.com"><input type="submit" name="SUBMIT"></a>
-						</div>
-					</form>
-				</div>
-				<div class="col-md-6 inputcontact text-center">
-					<p style=" font-size: 40px;
-  font-family: 'Mogra', cursive;">OUR MOTO</p> 
-					<p>ssdjs sjdsd ssjdhasj ssjdhas  <br> sjd jsadbasd </p>
-				</div>
-			</div>
-		</div>
-		<!-- contact end here -->
+	<!-- footer start -->
 
 
-		<!-- footer start -->
-		
-
-	</div><!-- navbar id end to  up -->
+</div><!-- navbar id end to  up -->
 
 
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
 
 
-	<!-- script of what make differ -->
-	<script src="<?= base_url('js/jquery.counterup.min.js')?>"></script> 
-	<script>
-		jQuery(document).ready(function( $ ) {
-			$('.counter').counterUp({
-				delay: 10,
-				time: 1000
-			});
+<!-- script of what make differ -->
+<script src="<?= base_url('js/jquery.counterup.min.js')?>"></script> 
+<script>
+	jQuery(document).ready(function( $ ) {
+		$('.counter').counterUp({
+			delay: 10,
+			time: 1000
 		});
-	</script>
-	<!-- script of what make  differ end -->
+	});
+</script>
+<!-- script of what make  differ end -->
 
 
-	<!-- srcipt of easy scroll -->
-	<script>$('a[href*="#"]:not([href="#"])').click(function() {
+<!-- srcipt of easy scroll -->
+<script>$('a[href*="#"]:not([href="#"])').click(function() {
 		 if( $(this).attr("href")=="#myCarousel") return;//This is the exception
 		 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 		 	var target = $(this.hash);

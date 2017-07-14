@@ -64,6 +64,31 @@
 
 		}
 
+
+
+		public function getlocation($id)
+		{
+			$this->db->where('property_id',$id);
+			$query=$this->db->get('property_location');
+			if($query->num_rows())
+			{
+				$response['status']=true;
+				$response['lat']=$query->row()->property_lat;
+				$response['long']=$query->row()->property_long;
+
+			}
+			else
+			{
+				$response['status']=false;
+			}
+			return $response;
+
+
+
+
+
+		}
+
 	}
 
 

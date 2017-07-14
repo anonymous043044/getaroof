@@ -49,6 +49,68 @@
 
 		}
 
+		public function reach_property()
+		{
+			$id = filter_var($_SERVER['PHP_SELF'], FILTER_SANITIZE_NUMBER_INT);
+			echo $id;
+			$this->load->Model('Property_model');
+			$location=$this->Property_model->getlocation($id);
+			if($location['status']==true)
+			{	
+				echo '
+				<script>
+				
+				var long = '.$location['long'].'
+				var lat= '.$location['lat'].'
+				
+
+				function getLocation() {
+				if (navigator.geolocation) {
+				    navigator.geolocation.getCurrentPosition(showPosition,showError);
+				} else { 
+				   alert("Geolocation is not supported by this browser.");
+				}
+				}
+
+				function showPosition(position) {
+					
+					window.location = "https://www.google.com/maps/dir/?api=1&origin=position.coords.latitude, position.coords.longitude&destination='.$location['lat'].','.$location['long'].'";	
+				}
+				
+				function showError(error) {
+				switch(error.code) {
+				    case error.PERMISSION_DENIED:
+				        alert("Denied Permission By User");
+				        break;
+				    case error.POSITION_UNAVAILABLE:
+				    	alert("Location information is unavailable");
+				    	break;
+				    case error.TIMEOUT:
+				        alert(The request to get user location timed out);
+				        break;
+				    case error.UNKNOWN_ERROR:
+				    	alert("An unknown error");
+				        break;
+				}
+				}
+				
+				window.location = "https://www.google.com/maps/dir/?api=1&origin=position.coords.latitude, position.coords.longitude&destination='.$location['lat'].','.$location['long'].'";
+				</script>
+
+				';
+			
+			}
+			else
+			{
+				//prints alert to the string
+				print "<script type=\"text/javascript\">alert('Property Location Not Found !');</script>";
+			}
+
+
+
+
+		}
+
 	}
 
 ?>

@@ -15,9 +15,9 @@
       
     }
     html{
-       overflow-x: hidden;
-    }
-    .navbar {
+     overflow-x: hidden;
+   }
+   .navbar {
      margin-bottom: 0;
 
      background-color: #292c2f;
@@ -48,7 +48,7 @@
      margin-bottom: 10px;
    }
    .username{
-    
+
    }
    .username:focus{
     outline: 0;
@@ -147,33 +147,43 @@
 
   </div>
   <div class="box col-sm-4 slideanim">
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ;?>"> 
+    <form method="post" action="<?php echo base_url();?>index.php/Auth/signup_validation"> 
      <div class="form-item">
        <label for="fname">Username</label>
-       <input type="text" class="username" name="username" placeholder="username" autocomplete="off"><?php echo $usernameERR; ?><br>
+       <input type="text" class="username" name="username" placeholder="username" value="<?php echo set_value('username');?>" autocomplete="off"><br>
+       <span><?php echo form_error('username'); ?></span>
      </div>
      <div class="form-item">
        <label for="fname">Email</label>
-       <input type="text" class="username" name="email" placeholder="email" autocomplete="off"><?php echo $emailERR;?><br>
+       <input type="text" class="username" name="email" placeholder="email" autocomplete="off" value="<?php echo set_value('email');?>"><br>
+       <span><?php echo form_error('email'); ?></span>
      </div>
      <div class="form-item">
        <label for="fname">Phone</label>
-       <input type="text" class="username" name="phoneNo" placeholder="Phone Number" autocomplete="off"><?php echo $phoneNoERR;?><br>
+       <input type="text" class="username" name="phoneNo" placeholder="Phone Number" autocomplete="off" value="<?php echo set_value('phoneNo');?>"><br>
+       <span><?php echo form_error('phoneNo'); ?></span>
      </div>
      <div class="form-item">
        <label for="fname">Registration</label>
-       <input type="text" class="username" name="registration" placeholder="Registration Number"><?php echo $passwordERR;?><br>
+       <input type="text" class="username" name="registration" placeholder="Registration Number" value="<?php echo set_value('registration');?>"><br>
+       <span><?php echo form_error('registration'); ?></span>
      </div>
      <div class="form-item">
       <label for="fname">Password</label>
-      <input type="password" class="username" name="password" placeholder="Password"><?php echo $passwordERR;?><br>
+      <input type="password" class="username" name="password" placeholder="Password"><br>
+      <span><?php echo form_error('password'); ?></span>
     </div>
+    <div class="form-item">
+      <label for="fname">Confirm  Password</label>
+      <span><?php echo form_error('passwordconf'); ?></span>
+      <input type="password" class="username" name="passwordconf" placeholder="Conirm Password"><br>
+    </div>
+
 
     
 
     <input type="submit" class="submitbutton btn  btn-lg"  name="signup" value="Sign Up">
   </form>
-  <?php  echo $username." ".$password . " ". $email." ". $phoneNo ;?>
 </div>
 <div class="col-sm-4">
 

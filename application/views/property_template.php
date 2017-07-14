@@ -257,7 +257,7 @@
 		<div id="main_box" style="margin-bottom: 50px;">
 		  	<div id="box1">
 		  		<div id="address" >Address : <?php echo $address; ?></div>
-		  		<div id="reach" ><a href="" id="reach1">Reach</a></div>
+		  		<div id="reach" ><a href="<?php echo base_url(); ?>/index.php/property/reach_property/<?php echo $property_id; ?>" id="reach1">Reach</a></div>
 		  	</div>
 		  	<div id="box2">
 		  		<div id="boygirl" >Gender : <?php echo $gender; ?></div>
