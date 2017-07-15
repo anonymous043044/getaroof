@@ -92,6 +92,28 @@ class User_model extends CI_Model
 		}
 
 	}
+
+
+
+	public function insert_user_data()
+	{
+					$this->load->helper('security');
+					$username=trim(xss_clean($this->input->post('username')));
+					$email=trim(xss_clean($this->input->post('email')));
+					$phone=trim(xss_clean($this->input->post('phoneNo')));
+					$registration=trim(xss_clean($this->input->post('registration')));
+					$password=trim(xss_clean($this->input->post('password')));
+					$data=array(
+						'username'=>$username,
+						'user_email'=>$email,
+						'user_password'=>$password,
+						'user_phone_number'=>$phone,
+
+
+						);
+					$result=$this->db->insert('user_details',$data);
+					return $result;
+	}
 }
 
 

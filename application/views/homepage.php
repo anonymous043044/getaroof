@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Chewy|Finger+Paint|Indie+Flower|Mogra|Pacifico|Pangolin|Permanent+Marker|Spectral" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/letterdrop.css">
-	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/stylelearning.css">
+	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/stylehome.css">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/filter.css">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/footer.css">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/font-style.css">
@@ -112,7 +112,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- navbar ended -->
 
 	<!-- this is the input start form   -->
-	<div id="navup"><!-- this is only for navbar id -->
+	<div id="navup" class="container-fluid"><!-- this is only for navbar id -->
 		<div id="yui1">
 			<span >getaroof </span>
 

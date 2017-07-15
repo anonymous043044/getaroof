@@ -9,7 +9,17 @@
 			//user comes to this then clicks on subkit in form then goes to signin_validation then cpmes back here if not validated else goes to home page 
 			//have to display navbar ,footer and login form 
 			$this->load->library('form_validation');
-			$this->load->view('signin');
+			if($this->session->isloggedin)
+			{
+				$this->load->view('prompt');
+			}
+			else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
+			{
+				
+				$this->load->view('signin');
+			}
+
+
 
 		}
 		public function signin_validation()
@@ -123,26 +133,12 @@
 
 				);
 				$this->form_validation->set_rules($rules);	
-
-
-
 				if($this->form_validation->run()==true)
 				{	
 					$this->load->helper('security');
-					$username=trim(xss_clean($this->input->post('username')));
-					$email=trim(xss_clean($this->input->post('email')));
-					$phone=trim(xss_clean($this->input->post('phoneNo')));
-					$registration=trim(xss_clean($this->input->post('registration')));
-					$password=trim(xss_clean($this->input->post('password')));
-					$data=array(
-						'username'=>$username,
-						'user_email'=>$email,
-						'user_password'=>$password,
-						'user_phone_number'=>$phone,
+					$this->load->model('User_model');
 
-
-						);
-					$result=$this->db->insert('user_details',$data);
+					$result=$this->User_model->insert_user_data();
 					if($result)
 					{
 
@@ -159,21 +155,12 @@
 				{
 					$this->signup();
 				}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		}
+
+
+
+
+
 		public function username_check($str)
 		{
 
@@ -188,9 +175,8 @@
 			{
 				return true;
 			}
-
-
 		}
+
 		public function phone_check($str)
 		{
 			$this->db->where('user_phone_number',$str);
@@ -204,10 +190,12 @@
 			{
 				return true;
 			}
+		}
 
 
-
-
+		public function logout()
+		{
+			//unset session variables
 		}
 		
 		
