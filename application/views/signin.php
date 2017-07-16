@@ -227,7 +227,7 @@
   <div class="col-sm-4 box1 text-center" style="float: left;">
     <form method="POST" action="../php/signup.php">
      <span>Click Here</span>
-     <a href="http://localhost/startup-bvp1.1/php/signup.php" style="text-decoration: none;">&nbsp;  &nbsp;  New Users</a>
+     <a href="http://52.66.12.227/getaroof/php/signup.php" style="text-decoration: none;">&nbsp;  &nbsp;  New Users</a>
    </form>
  </div>
  <div class="col-sm-4">

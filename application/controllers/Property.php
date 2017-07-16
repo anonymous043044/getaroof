@@ -19,7 +19,7 @@
 			
 			$id = filter_var($_SERVER['PHP_SELF'], FILTER_SANITIZE_NUMBER_INT);
 			//$a=$this->Search_model->getpropertydetails($id);
-			$data = file_get_contents('http://localhost/startup/index.php/property/propertydetails?property_id='.$id);
+			$data = file_get_contents('http://52.66.12.227/getaroof/index.php/property/propertydetails?property_id='.$id);
 			$result=json_decode($data);
 			//echo $result['data'];
 			echo $result->data->food ;
