@@ -121,40 +121,13 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
     padding: 9px;
     color: #333;
 }
-.navbar {
-    margin-bottom: 0;
-  /* background-color: #292c2f;*/
-    background-color: #292c2f;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-    font-weight: bold;
-}
 
-.navbar li a, .navbar .navbar-brand {
-   
-    color: #fff !important;
-}
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-   /* color: #6F1EF4 !important;*/
-    color: #292c2f !important;
-    background-color: #FCFAFF !important;
-    font-size: 16px;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-}
   </style>
 </head>
 
 <body id="page-top" class="index">
 
+    
     <!-- Navigation -->
     <div id="abc">
     <div id="abc1" ></div>
@@ -162,27 +135,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
     
     
         <!-- navbar start -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
-                </button>
-                <a class="navbar-brand"  href="#myPage">GetaRoof.com</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                  
-                    <li><a href="#contact">HOME</a></li>
-                    <li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
-                    <li><a href="<?php echo base_url() ?>/index.php/auth/signup">SIGN UP</a></li>
-                    <li><a href="#">LOG OUT</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+   
     <!-- navbar ended -->
 
 
@@ -314,7 +267,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                         <li>
                             <div class="timeline-image">
 
-                                <img class="img-circle img-responsive" src="<?=base_url()?>images/tush.jpg" alt="notload">
+                                <img class="img-circle img-responsive" src="<?=base_url()?>images/tusharb.jpg" alt="notload">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
