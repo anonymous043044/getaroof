@@ -18,7 +18,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="shortcut icon" type="image/x-icon" href="<?=base_url()?>images/home.ico" />
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -28,8 +28,21 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
-	<title>trial</title>
+	<title>Get_A_Roof - About</title>
 	<style>
+
+		html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 		#abc{
 			display: flex;
 			flex-wrap: wrap;
@@ -44,17 +57,70 @@
 				width: 60%;
                 
 			}	
+			body{
+				 overflow: hidden;
+			}
 
 		}
+
+		@media screen and (max-width: 1000px){
+			#abc1{
+				order: 0;
+				width: 100%;
+			}
+			#abc2{
+				order: 1;
+				width: 100%;
+                
+			}
+			#myFrame{
+				overflow: hidden;
+			}
+		}
+
+
         #getaroof{
             font-size: 70px;
             color: red;
             padding-left: 80px;
             padding-top: 375px;
         }
+        /*this is navbar styling*/
+.navbar {
+    margin-bottom: 0;
+  /* background-color: #292c2f;*/
+    background-color: #292c2f;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.navbar li a, .navbar .navbar-brand {
+   
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+   /* color: #6F1EF4 !important;*/
+    color: #292c2f !important;
+    background-color: #FCFAFF !important;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+/*this is filter content */
+
+
 	</style>
 </head>
-<body onload="myFunction()" style=" overflow: hidden;">
+<body onload="myFunction()" >
 		
 		<script>
 function myFunction() {
@@ -62,6 +128,29 @@ function myFunction() {
     document.getElementById("myFrame").height = h;
 }
 </script>
+	
+	
+		<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand"  href="#myPage">GetaRoof.com</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                    <li><a href="<?php echo base_url() ?>/index.php/Home">HOME</a></li>
+                    <li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
+                    <li><a href="<?php echo base_url() ?>/index.php/auth/signup">SIGN UP</a></li>
+                    <li><a href="#">LOG OUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 		<div id="abc">
 		<div id="abc1">
