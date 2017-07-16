@@ -436,6 +436,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
 
+			After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
+
 			This was the time when fund houses (and mutual funds) were coming of age in the early 2000s. In his previous role, Neelabh was an investment banker with Enam Capital, now Axis Capital, after acquisition by Axis Bank.
 
 			On the other end of the spectrum is Gaurav, an IIT Delhi and Booth School of Business graduate, who worked as a proprietary portfolio manager with Morgan Stanley across asset classes, commodities, and debt.
