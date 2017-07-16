@@ -3,8 +3,10 @@
 	class Home extends CI_Controller
 	{
 		public function index()
-		{
-			$this->load->view('homepage');
+		{	
+			$this->load->view('homepage.php');
+			/*just for trial  i  commented this */
+			/*$this->load->view('homepage');*/
 			$this->load->view('footer');
 						
 
