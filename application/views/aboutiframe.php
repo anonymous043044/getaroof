@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Aboutiframe</title>
 
     <!-- Bootstrap Core CSS -->
     
@@ -34,7 +34,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-agency/3.3.7/css/agency.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-agency/3.3.7/js/agency.js">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-agency/3.3.7/js/agency.min.js">
-    <!-- <link href="css/agency.min.css" rel="stylesheet"> -->
+    <link href = "<?php echo base_url(); ?>css/agency.min.css" rel="stylesheet">
+    <link href = "<?php echo base_url(); ?>css/font-style.css" rel="stylesheet">
 
     
     <style>
@@ -186,7 +187,8 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
 
 
     <!-- Header -->
-    <header>
+
+    <header style="color: black">
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To GetaRoof</div>
@@ -194,6 +196,24 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
             </div>
         </div>
     </header>
+
+    <div  style="
+            padding-left: 30px;
+            padding-right: 30px;" id="about_font">
+            Neelabh is an investment banker specialising in mergers and acquisitions and public market fund raising.
+
+            After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
+
+            After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
+
+            This was the time when fund houses (and mutual funds) were coming of age in the early 2000s. In his previous role, Neelabh was an investment banker with Enam Capital, now Axis Capital, after acquisition by Axis Bank.
+
+            On the other end of the spectrum is Gaurav, an IIT Delhi and Booth School of Business graduate, who worked as a proprietary portfolio manager with Morgan Stanley across asset classes, commodities, and debt.
+
+            It so happened that they met through Gaurav’s ex-IIT batchmate at the time when they were both contemplating entrepreneurship. Around August 2015, More</a>
+
+            .
+        </div>
 
     <!-- Services Section -->
     <section id="services" style="padding-bottom: 0px;">
@@ -309,7 +329,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                                     <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/tuskibansal"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
@@ -337,7 +357,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                                     <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/vaibhav.chellani.9"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
@@ -348,7 +368,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="<?=base_url()?>images/back.jpg" alt="">
+                                <img class="img-circle img-responsive" src="<?=base_url()?>images/about/3.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -362,7 +382,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="<?=base_url()?>images/back.jpg" alt="">
+                                <img class="img-circle img-responsive" src="<?=base_url()?>images/about/4.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -399,7 +419,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="<?=base_url()?>images/tusharbansal.jpg" class="img-responsive img-circle" alt="">
+                        <img src="<?=base_url()?>images/team/1.jpg" class="img-responsive img-circle" alt="">
                         <h4>Kay Garland</h4>
                         <p class="text-muted">Lead Designer</p>
                         <ul class="list-inline social-buttons">
@@ -414,7 +434,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <img src="<?=base_url()?>images/team/2.jpg" class="img-responsive img-circle" alt="">
                         <h4>Larry Parker</h4>
                         <p class="text-muted">Lead Marketer</p>
                         <ul class="list-inline social-buttons">
@@ -429,7 +449,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <img src="<?=base_url()?>images/team/3.jpg" class="img-responsive img-circle" alt="">
                         <h4>Diana Pertersen</h4>
                         <p class="text-muted">Lead Developer</p>
                         <ul class="list-inline social-buttons">

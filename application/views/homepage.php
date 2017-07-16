@@ -131,7 +131,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<li><a href="#contact">CONTACT</a></li>
 					<li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
 					<li><a href="<?php echo base_url() ?>/index.php/auth/signup">SIGN UP</a></li>
-					<li><a href="#">LOG OUT</a></li>
+					<li><a href="<?php echo base_url() ?>/index.php/auth/aboutpage">LOG OUT</a></li>
 				</ul>
 			</div>
 		</div>
@@ -442,7 +442,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			On the other end of the spectrum is Gaurav, an IIT Delhi and Booth School of Business graduate, who worked as a proprietary portfolio manager with Morgan Stanley across asset classes, commodities, and debt.
 
-			It so happened that they met through Gaurav’s ex-IIT batchmate at the time when they were both contemplating entrepreneurship. Around August 2015, t <a href="<?php echo base_url() ?>/index.php/Trial1">More</a>
+			It so happened that they met through Gaurav’s ex-IIT batchmate at the time when they were both contemplating entrepreneurship. Around August 2015, t <a href="<?php echo base_url() ?>/index.php/Rock">More</a>
 
 			.
 		</div>

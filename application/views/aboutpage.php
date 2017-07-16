@@ -69,7 +69,7 @@ function myFunction() {
 			
 		</div>
 		<div id="abc2" class="fixed">
-		 <iframe src="<?=base_url()?>aboutiframe.php" overflow="hidden" id="myFrame" width="100%"></iframe>
+		 <iframe src="<?php echo site_url('Test');?>" overflow="hidden" id="myFrame" width="100%"></iframe>
 		</div>
 		</div>
 

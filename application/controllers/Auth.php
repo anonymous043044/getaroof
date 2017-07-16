@@ -199,7 +199,8 @@
 		}
 		
 		public function aboutpage(){
-			$this->load->view('aboutpage.php');
+
+			$this->load->view('aboutiframe.php');
 		}
 		
 		
