@@ -198,6 +198,9 @@
 			//unset session variables
 		}
 		
+		public function aboutpage(){
+			$this->load->view('aboutpage.php');
+		}
 		
 		
 	}
