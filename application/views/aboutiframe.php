@@ -329,7 +329,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul>r
                     </div>
                 </div>
                 <div class="col-sm-4">
