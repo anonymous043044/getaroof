@@ -153,17 +153,24 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
     <div  style="
             padding-left: 30px;
             padding-right: 30px;" id="about_font">
-            Neelabh is an investment banker specialising in mergers and acquisitions and public market fund raising.
+            GetaRoof is an innovative home rental platform that makes it easier for you to find your new home in just a few clicks , without paying any brokerage and sorting properties your institute wise hence saving a lot of time . Use our verified listing to ensure you find your home by contacting the owners directly.
 
-            After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
+GetaRoof was started because all of us believed that paying hefty brokerage can not be the only option to find a new home. As tenants, we have been paying these brokerages year on year without seeing any advantage of the broker. The only reason he existed was that there was a huge information asymmetry in the market. GetaRoof is a platform that removes this information asymmetry and provides a marketplace for free exchange of this information that used to cost 1-2 months of rent as brokerage.
 
-            After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
+We have done 2 things to help you find that perfect home:
 
-            This was the time when fund houses (and mutual funds) were coming of age in the early 2000s. In his previous role, Neelabh was an investment banker with Enam Capital, now Axis Capital, after acquisition by Axis Bank.
+Firstly, we have painstakingly verified each listing and made sure that these are direct owners or shared accommodation parties and there are no middlemen or brokers. We use lot of heuristics and techniques to ensure that you get a totally broker free list.
 
-            On the other end of the spectrum is Gaurav, an IIT Delhi and Booth School of Business graduate, who worked as a proprietary portfolio manager with Morgan Stanley across asset classes, commodities, and debt.
+Secondly, we have also tried to ensure that maximum information is available to you in as easy to use format. This ensures that you get a very good idea of the property even before you visit it. Thus, you can shortlist flats sitting at the comfort of your home without actually traveling all the good and bad properties. This saves your time and effort and with a quick shortlist of 4-5 properties you can actually get a house in few hours!
 
-            It so happened that they met through Gaurav’s ex-IIT batchmate at the time when they were both contemplating entrepreneurship. Around August 2015, More</a>
+
+If you are a landlord interested in posting your apartments to GetaRoof, please contact us and we will get in touch to help you list the property.
+
+GetaRoof understands that not everyone has time & expertise to use computer to list a property. To solve this problem, we have made the listing even simpler.
+
+You just need to send us the information on WhatsApp on +91-8802907496 or +91-8285626792 and we will create your login for you! No need of a computer or calling anyone. Our Customer Service Representative will call you and take whatever info is required. Nothing can be simpler and quicker than this!
+
+And tenants, happy hunting and get in touch with us to let us know what else we can help!</a>
 
             .
         </div>
