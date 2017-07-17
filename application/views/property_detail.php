@@ -293,57 +293,40 @@ $power = "0";
 //echo "hey ".$food;
 
 ?>
-	<div id="get_details">
-		<div id="upper"></div>
-		<div id="info1">
-			<span id="question">Food  facility</span> yes or no
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="btn-group " data-toggle="buttons">
-
-							<label class="btn" id="food">
-								<input type="radio" name='food' <?=$food=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
-							</label>
-							<label class="btn" id="food">
-								<input type="radio" name='food' <?=$food=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
-							</label>
-						</div>
-
-					</div>
-				</div>
-			</div>
-
-			<br>
-			<span id="question">Secuity Money</span> amount<br>
-			<span id="question">Drinking Water</span> 
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="btn-group " data-toggle="buttons">
-
-							<label class="btn" id="water">
-								<input type="radio" name='water' <?=$water=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
-							</label>
-							<label class="btn" id="water">
-								<input type="radio" name='water'<?=$water=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
-							</label>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<br>
-			<span id="question">Water filter</span><div class="container">
+<div id="get_details">
+	<div id="upper"></div>
+	<div id="info1">
+		<span id="question">Food  facility</span> yes or no
+		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="btn-group " data-toggle="buttons">
 
-						<label class="btn">
-							<input type="radio" name='water_facility' <?=$water_facility=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
+						<label class="btn" id="food">
+							<input type="radio" name='food' <?=$food=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
 						</label>
-						<label class="btn">
-							<input type="radio" name='water_facility' <?=$water_facility=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+						<label class="btn" id="food">
+							<input type="radio" name='food' <?=$food=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+						</label>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<span id="question">Secuity Money</span> amount<br>
+		<span id="question">Drinking Water</span> 
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="btn-group " data-toggle="buttons">
+
+						<label class="btn" id="water">
+							<input type="radio" name='water' <?=$drinking_water=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
+						</label>
+						<label class="btn" id="water">
+							<input type="radio" name='water'<?=$drinking_water=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
 						</label>
 					</div>
 
@@ -351,63 +334,81 @@ $power = "0";
 			</div>
 		</div>
 		<br>
-		<span id="question">water availability</span>(no of hours) <br>
-		<span id="question">Furnishing </span>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="btn-group " data-toggle="buttons">
+		<span id="question">Water filter</span><div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="btn-group " data-toggle="buttons">
 
-						<label class="btn">
-							<input type="radio" name='Furnishing' <?=$Furnishing=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Full</span>
-						</label>
-						<label class="btn">
-							<input type="radio" name='Furnishing' <?=$Furnishing=="2" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> Semi</span>
-						</label>
-						<label class="btn">
-							<input type="radio" name='Furnishing' <?=$Furnishing=="3" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
-						</label>
-					</div>
-
+					<label class="btn">
+						<input type="radio" name='water_facility' <?=$filter_prov=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
+					</label>
+					<label class="btn">
+						<input type="radio" name='water_facility' <?=$filter_prov=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+					</label>
 				</div>
-			</div>
-		</div> <br>
-		<span id="question">Electricity bill</span> 
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="btn-group " data-toggle="buttons">
 
-						<label class="btn">
-							<input type="radio" name='Electricity' <?=$Electricity=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Included</span>
-						</label>
-						<label class="btn">
-							<input type="radio" name='Electricity' <?=$Electricity=="0" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
-						</label>
-					</div>
-
-				</div>
-			</div>
-		</div><br>
-		<span id="question"> gyser </span>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="btn-group " data-toggle="buttons">
-
-						<label class="btn">
-							<input type="radio" name='gyser' <?=$gyser=="1" ? "checked" : ""?><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
-						</label>
-						<label class="btn">
-							<input type="radio" name='gyser' <?=$gyser=="0" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
-						</label>
-					</div>
-
-				</div>
 			</div>
 		</div>
-		<br>
-		<span id="question">cooler</span> <div class="container">
+	</div>
+	<br>
+	<span id="question">water availability</span>(no of hours) <br>
+	<span id="question">Furnishing </span>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="btn-group " data-toggle="buttons">
+
+					<label class="btn">
+						<input type="radio" name='Furnishing' <?=$furnishing_type=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Full</span>
+					</label>
+					<label class="btn">
+						<input type="radio" name='Furnishing' <?=$furnishing_type=="2" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> Semi</span>
+					</label>
+					<label class="btn">
+						<input type="radio" name='Furnishing' <?=$furnishing_type=="3" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+					</label>
+				</div>
+
+			</div>
+		</div>
+	</div> <br>
+	<span id="question">Electricity bill</span> 
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="btn-group " data-toggle="buttons">
+
+					<label class="btn">
+						<input type="radio" name='Electricity' <?=$elec_bill=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Included</span>
+					</label>
+					<label class="btn">
+						<input type="radio" name='Electricity' <?=$elec_bill=="0" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+					</label>
+				</div>
+
+			</div>
+		</div>
+	</div><br>
+	<span id="question"> gyser </span>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="btn-group " data-toggle="buttons">
+
+					<label class="btn">
+					<input type="radio" name='gyser' <?=$geyser=="1" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
+					</label>
+					<label class="btn">
+						<input type="radio" name='gyser' <?=$geyser=="0" ? "checked" : ""?>><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+					</label>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<br>
+	<span id="question">cooler</span> 
+	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="btn-group " data-toggle="buttons">
@@ -434,10 +435,10 @@ $power = "0";
 			<div class="btn-group " data-toggle="buttons">
 
 				<label class="btn">
-					<input type="radio" name='AC' <?=$AC=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
+					<input type="radio" name='AC' <?=$ac=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
 				</label>
 				<label class="btn">
-					<input type="radio" name='AC' <?=$AC=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+					<input type="radio" name='AC' <?=$ac=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
 				</label>
 			</div>
 
@@ -452,10 +453,10 @@ $power = "0";
 			<div class="btn-group " data-toggle="buttons">
 
 				<label class="btn">
-					<input type="radio" name=' cleaning' <?=$cleaning=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
+					<input type="radio" name=' cleaning' <?=$room_cleaning=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
 				</label>
 				<label class="btn">
-					<input type="radio" name=' cleaning'<?=$cleaning=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+					<input type="radio" name=' cleaning'<?=$room_cleaning=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
 				</label>
 			</div>
 
@@ -501,10 +502,10 @@ $power = "0";
 		<div class="btn-group " data-toggle="buttons">
 
 			<label class="btn">
-				<input type="radio" name='REFRIGERATOR' <?=$REFRIGERATOR=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
+				<input type="radio" name='REFRIGERATOR' <?=$fridge=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
 			</label>
 			<label class="btn">
-				<input type="radio" name='REFRIGERATOR' <?=$REFRIGERATOR=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+				<input type="radio" name='REFRIGERATOR' <?=$fridge=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
 			</label>
 		</div>
 
@@ -519,10 +520,10 @@ $power = "0";
 			<div class="btn-group " data-toggle="buttons">
 
 				<label class="btn"  id="myRadio1" >
-					<input type="radio"  id="myRadio" name='power' <?=$power=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
+					<input type="radio"  id="myRadio" name='power' <?=$power_backup=="1" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Yes</span>
 				</label>
 				<label class="btn"  id="myRadio1" >
-					<input type="radio"  id="myRadio" name='power' <?=$power=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
+					<input type="radio"  id="myRadio" name='power' <?=$power_backup=="0" ? "checked" : ""?> ><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> No</span>
 				</label>
 			</div>
 
@@ -537,18 +538,18 @@ $power = "0";
 <div id="lower"></div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
 
 
-	<!-- script of what make differ -->
-	<script src="<?= base_url('js/jquery.counterup.min.js')?>"></script> 
+<!-- script of what make differ -->
+<script src="<?= base_url('js/jquery.counterup.min.js')?>"></script> 
 
 <script>
 	$(window).bind("load", function() {
 		$("myRadio1").change(function() {
-   $("#myRadio").attr('disabled', true);
-});
-});
+			$("#myRadio").attr('disabled', true);
+		});
+	});
 </script>
 </body>
 

@@ -169,7 +169,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
         </div>
 
     <!-- Services Section -->
-    <section id="services" style="padding-bottom: 0px;">
+    <!-- <section id="services" style="padding-bottom: 0px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -179,76 +179,8 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
             </div>
         
 
-                <div class="row">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
-                                </h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">15 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">Second Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">12 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$74.99</h4>
-                                <h4><a href="#">Third Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">31 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
            </div>
-    </section>
+    </section> -->
 
 
 
@@ -372,9 +304,9 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="<?=base_url()?>images/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <img src="<?=base_url()?>images/tusharb.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Tushar</h4>
+                        <p class="text-muted">-</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -387,9 +319,9 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="<?=base_url()?>images/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <img src="<?=base_url()?>images/vaibhav.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Vibhav</h4>
+                        <p class="text-muted">-</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -402,9 +334,9 @@ form .row:first-child .form-item{border-top:1px solid #fff;}
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="<?=base_url()?>images/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <img src="<?=base_url()?>images/three.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana </h4>
+                        <p class="text-muted">- </p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
