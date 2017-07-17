@@ -195,12 +195,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="<?=base_url()?>images/first.jpg" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
+                                <h4 class="pull-right">₹3500</h4>
+                                <h4><a href="#">A-6 , Zs/9 paschim vihar</a>
                                 </h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                                <p>Three Room , Two Bathroom , Full furnished , Non AC ,  2 Cooler</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">15 reviews</p>
@@ -217,12 +217,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="<?=base_url()?>images/second.jpg" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">Second Product</a>
+                                <h4 class="pull-right">₹4000</h4>
+                                <h4><a href="#">Fs - Shiva Enclave</a>
                                 </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Three Room , Three Bathroom , Semi furnished , Non AC , One cooler</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">12 reviews</p>
@@ -239,12 +239,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$74.99</h4>
-                                <h4><a href="#">Third Product</a>
+                            <img src="http://placehold.it/320x250" alt="">
+                            <div class="caption"
+                                <h4 class="pull-right">BLANK</h4>
+                                <h4><a href="#">BLANK</a>
                                 </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>your description will be added here</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">31 reviews</p>
