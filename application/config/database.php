@@ -78,8 +78,8 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 
-	'password' => 'astrokick',
-	'database' => 'trial_startup',
+	'password' => 'getaroof',
+	'database' => 'getaroof',
 
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
