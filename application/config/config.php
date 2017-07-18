@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://52.66.12.227/getaroof/';
+$config['base_url'] = 'http://localhost/getaroof/';
 
 
 /*
