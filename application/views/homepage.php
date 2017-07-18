@@ -210,7 +210,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="thumbnail">
                             <img src="<?=base_url()?>images/first.jpg" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">₹3500</h4>
+                                <h4 class="pull-right">₹3500/p</h4>
                                 <h4><a href="#">A-6 , Zs/9 paschim vihar</a>
                                 </h4>
                                 <p>Three Room , Two Bathroom , Full furnished , Non AC ,  2 Cooler</p>
@@ -230,20 +230,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="<?=base_url()?>images/second.jpg" alt="">
+                            <img src="http://via.placeholder.com/350x280" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">₹4000</h4>
-                                <h4><a href="#">Fs - Shiva Enclave</a>
+                                <h4 class="pull-right">Blank</h4>
+                                <h4><a href="#">Blank</a>
                                 </h4>
-                                <p>Three Room , Three Bathroom , Semi furnished , Non AC , One cooler</p>
+                                <p>Your Description will be added here</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">9 reviews</p>
+                                <p class="pull-right">0 reviews</p>
                                 <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </p>
                             </div>
@@ -254,10 +254,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="thumbnail">
                             <img src="<?=base_url()?>images/aunty1.jpg" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">₹4800</h4>
+                                <h4 class="pull-right">₹4800/p</h4>
                                 <h4><a href="#">Rama-Raj Villa</a>
                                 </h4>
-                                <p>Two Bedroom , Two cooler , Full Furnished , Non AC , 2 Cooler</p>
+                                <p>Two Bedroom , One Bathroom , Full Furnished , Non AC , 2 Cooler</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">14 reviews</p>
@@ -334,10 +334,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 						<div class="col-sm-4">
-							<img src="https://placekitten.com/g/125/125" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
+							<img src="<?=base_url()?>images/testimonial/f/astha.jpg" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>FIRST This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this is <br>helping and right now using is nice .... blah blah annd blah this </p>
+							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>It was a nice experience with GetaRoof . This is very helpful . I am very happy with GetaRoom owner plans. Keep it up GetaRoof</p>
 							<p style="text-align: right; font-weight: bold;"> <br> <br> </p>
 						</div><!-- end text here of testimonal one -->
 
@@ -351,10 +351,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 						<div class="col-sm-4">
-							<img src="https://placekitten.com/g/125/128" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
+							<img src="<?=base_url()?>images/testimonial/f/harsh.jpg" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>SECOND This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this is helping and right now using is nice .... blah blah annd blah  </p>
+							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br> I have got very quick response from the site. They helped me to find a new PG to stay as i  was  new in delhi ,as an individual,to find a home with college roommates.Thankfully GetaRoof helped me it.
+ </p>
 							<p style="text-align: right; font-weight: bold;"> <br> <br></p>
 						</div><!-- end text here of testimonal one -->
 
@@ -367,10 +368,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 						<div class="col-sm-4">
-							<img src="https://placekitten.com/g/125/127" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
+							<img src="<?=base_url()?>images/testimonial/f/mohit.jpg" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>THIRD This is good to  use this site , easy to use . <br>provide inf about the lanndlord . This is very good  to use this site . and this is helping and right now using is nice .... blah blah annd blah  </p>
+							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>i came to delhi  very first  time . i was  worry for my PG . The site really helps us to find good properties in the least amount of time without any headache of brokerage. GetaRoof  is very good option .   </p>
 							<p style="text-align: right; font-weight: bold;"> <br> <br> </p>
 
 
@@ -386,7 +387,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<img src="https://placekitten.com/g/125/126" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p  id="testimonal_text" style="text-align: center; "> <br> <br>FORTH This is good to  use this site , easy to use . provide inf about the lanndlord . This is very good  to use this site . and this <br> is helping and right now using is nice .... blah blah annd blah  </p>
+							<p  id="testimonal_text" style="text-align: center; "> <br> <br>GetaRoof provides a great place to stay with safe environment. if they show you something about property that is always same as it. No fake pictures. </p>
 							<p style="text-align: right; font-weight: bold;"> <br> <br> </p>
 						</div><!-- end text here of testimonal one -->
 
