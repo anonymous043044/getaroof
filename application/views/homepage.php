@@ -445,17 +445,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="col-sm-8" style="
 			padding-left: 30px;
 			padding-right: 30px;" id="about_font">
-			Neelabh is an investment banker specialising in mergers and acquisitions and public market fund raising.
+			GetaRoof is an innovative home rental platform that makes it easier for you to find your new home in just a few clicks , without paying any brokerage and sorting properties your institute wise hence saving a lot of time . Use our verified listing to ensure you find your home by contacting the owners directly.
 
-			After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
 
-			After graduating from IIM Bangalore in 2005, Neelabh’s experience with HSBC, ICICI, and Deutsche Bank crafted his understanding of the wealth management space.
+			If you are a landlord interested in posting your apartments to GetaRoof, please contact us and we will get in touch to help you list the property.
 
-			This was the time when fund houses (and mutual funds) were coming of age in the early 2000s. In his previous role, Neelabh was an investment banker with Enam Capital, now Axis Capital, after acquisition by Axis Bank.
+            GetaRoof understands that not everyone has time & expertise to use computer to list a property. To solve this problem, we have made the listing even simpler.
 
-			On the other end of the spectrum is Gaurav, an IIT Delhi and Booth School of Business graduate, who worked as a proprietary portfolio manager with Morgan Stanley across asset classes, commodities, and debt.
+            You just need to send us the information on WhatsApp on +91-8802907496 or +91-8285626792 and we will create your login for you! No need of a computer or calling anyone. Our Customer Service Representative will call you and take whatever info is required. Nothing can be simpler and quicker than this!
 
-			It so happened that they met through Gaurav’s ex-IIT batchmate at the time when they were both contemplating entrepreneurship. Around August 2015, t <a href="<?php echo base_url() ?>/index.php/Rock">More</a>
+            And tenants, happy hunting and get in touch with us to let us know what else we can help!
+
+
+			 <a href="<?php echo base_url() ?>/index.php/Rock">More</a>
 
 			.
 		</div>
