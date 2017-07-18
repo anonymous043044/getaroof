@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>insert site name</title>
+	<title>Get A Roof</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="<?=base_url()?>images/home.ico" />
@@ -123,7 +123,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 				</button>
-				<a class="navbar-brand"  href="#myPage">GetaRoof.com</a>
+				<a class="navbar-brand"  href="#myPage">GetaRoof</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
@@ -141,7 +141,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- this is the input start form   -->
 	<div id="navup" class="container-fluid"><!-- this is only for navbar id -->
 		<div id="yui1">
-			<span >getaroof </span>
+			<span >GetaRoof </span>
 
 		</div>
 		<!-- filter buttons -->
@@ -191,6 +191,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		<!-- trending property here -->
+
+			 <section  id="make_differ_text" style="padding-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="section-heading">Trending Properties</p>
+                    <h3 class="section-subheading text-muted">Where we found something good</h3>
+                </div>
+            </div>
+        
+
+           </div>
+    </section>
                 <div class="row">
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
@@ -203,7 +216,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p>Three Room , Two Bathroom , Full furnished , Non AC ,  2 Cooler</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">15 reviews</p>
+                                <p class="pull-right">5 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -225,7 +238,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p>Three Room , Three Bathroom , Semi furnished , Non AC , One cooler</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">12 reviews</p>
+                                <p class="pull-right">9 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -239,21 +252,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x250" alt="">
-                            <div class="caption"
-                                <h4 class="pull-right">BLANK</h4>
-                                <h4><a href="#">BLANK</a>
+                            <img src="<?=base_url()?>images/aunty1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">₹4800</h4>
+                                <h4><a href="#">Rama-Raj Villa</a>
                                 </h4>
-                                <p>your description will be added here</p>
+                                <p>Two Bedroom , Two cooler , Full Furnished , Non AC , 2 Cooler</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">31 reviews</p>
+                                <p class="pull-right">14 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
                                 </p>
                             </div>
                         </div>
@@ -271,14 +284,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p id="differ_text"> Total Saved money</p>
 					<div class="differ_border" style="padding-top: 10px; background-color: white;">
 						<p class="rupee">&#8377;</p>
-						<span class="counter differ_no" >23000</span> 
+						<span class="counter differ_no" >80000</span> 
 					</div>
 				</div>
 
 				<div class="col-sm-4">
 					<p id="differ_text">Students</p>
 					<div class="differ_border" style="background-color: white;">
-						<span class="counter differ_no">1.9583</span>
+						<span class="counter differ_no">75</span>
 					</div>
 				</div>
 
@@ -286,7 +299,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p id="differ_text">Year target</p>
 					<div class=" differ_border" style="padding-top: 10px ; background-color: white;">
 						<p class="rupee">&#8377;</p>
-						<span class="counter differ_no">12345</span>
+						<span class="counter differ_no">100000</span>
 					</div>
 				</div>
 			</div> <!-- make a differ -->

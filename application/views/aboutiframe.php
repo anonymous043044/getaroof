@@ -336,7 +336,7 @@ And tenants, happy hunting and get in touch with us to let us know what else we 
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul>r
                     </div>
                 </div>
                 <div class="col-sm-4">
