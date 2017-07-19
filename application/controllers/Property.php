@@ -18,7 +18,6 @@
 
 			
 			$id = filter_var($_SERVER['PHP_SELF'], FILTER_SANITIZE_NUMBER_INT);
-			//$a=$this->Search_model->getpropertydetails($id);
 			$data = file_get_contents(base_url() .'index.php/property/propertydetails?property_id='.$id);
 
 			$result=json_decode($data);

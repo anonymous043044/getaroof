@@ -21,7 +21,7 @@
 			$rent=$this->input->post('Budget');
 
 			$result=$this->Search_model->getproperties($gender,$distancelower,$distanceupper,$rent);
-
+			if($result)
 			foreach ($result->result() as $row)
 			{
 				$a=$this->Search_model->getpropertydetails($row->property_id);

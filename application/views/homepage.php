@@ -114,28 +114,74 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <body data-spy="scroll" data-target=".navbar" data-offset="80" >
 
+
+	<?php 
+		if($this->session->isloggedin)
+			{
+				//navbar when user loged in	
+				echo '
+				<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo '/index.php/Home">GetaRoof</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#about">ABOUT US</a></li>
+							<li><a href="#contact">CONTACT US</a></li>
+							
+							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/logout">LOG OUT</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
+
+						</ul>
+					</div>
+				</div>
+			</nav>';
+
+
+
+
+						}
+			else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
+			{	echo '
+				<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo '/index.php/Home">GetaRoof</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#about">ABOUT US</a></li>
+							<li><a href="#contact">CONTACT US</a></li>
+							
+							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signin">SIGN IN</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav>';
+				//navbar when user logged out
+
+			}
+
+
+
+	 ?>
+
+
 	<!-- navbar start -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
-				</button>
-				<a class="navbar-brand"  href="#myPage">GetaRoof</a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#about">ABOUT</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-					<li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
-					<li><a href="<?php echo base_url() ?>/index.php/auth/signup">SIGN UP</a></li>
-					<li><a href="<?php echo base_url() ?>/index.php/auth/aboutpage">LOG OUT</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	
 	<!-- navbar ended -->
 
 	<!-- this is the input start form   -->
@@ -178,8 +224,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</select>
 					</div>
 					<div class="container-fluid1 btn4">
-
-						<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" >
+					<?php  if($this->session->isloggedin)
+						{
+							echo '<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" >';
+						}
+						else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
+						{
+							echo '<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" disabled >';	
+								
+						}  
+						?>
+						
 					</div>
 				</form>
 			</div>

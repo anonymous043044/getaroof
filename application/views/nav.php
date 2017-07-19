@@ -55,7 +55,7 @@
 				<div class="container-fluid1 btn2">
 
 					<select name="Distance" class="btn  btn-responsive xyz"  ><!-- xyz for  styling -->
-						<option value="0">Distance:All</option>
+						
 
 						<option value="3">1-3 km</option>
 						<option value="5">3-5 km</option>

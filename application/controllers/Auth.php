@@ -9,6 +9,7 @@
 			//user comes to this then clicks on subkit in form then goes to signin_validation then cpmes back here if not validated else goes to home page 
 			//have to display navbar ,footer and login form 
 			$this->load->library('form_validation');
+			
 			if($this->session->isloggedin)
 			{
 				$this->load->view('prompt');
@@ -49,6 +50,7 @@
 					{
 						//login successful
 						$this->session->set_userdata($data);
+						$this->session->set_userdata('isloggedin', true);
 						redirect(base_url().'index.php/Home/index');
 					}
 					else
@@ -67,6 +69,7 @@
 					{
 						//login successful
 						$this->session->set_userdata($data);
+						$this->session->set_userdata('isloggedin', true);
 						redirect(base_url().'index.php/Home/index');
 					}
 					else
@@ -89,7 +92,18 @@
 		{
 			//have to display navbar ,footer and signup form
 			$this->load->library('form_validation');
-			$this->load->view('signup');
+			if($this->session->isloggedin)
+			{
+				$this->load->view('prompt');
+			}
+			else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
+			{
+				
+				$this->load->view('signup');
+			}
+
+			
+			
 		}
 		public function signup_validation()
 		{
@@ -143,6 +157,8 @@
 					{
 
 						//session variable changes
+						$this->session->set_userdata('isloggedin', true);
+						$this->session->set_userdata($result);
 						redirect(base_url().'index.php/Home/index');			
 					}
 					else
@@ -196,6 +212,11 @@
 		public function logout()
 		{
 			//unset session variables
+			
+
+			$this->session->unset_userdata('isloggedin');
+			redirect(base_url().'index.php/Home/index');
+			
 		}
 		
 		public function aboutpage(){
