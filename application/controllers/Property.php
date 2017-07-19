@@ -60,6 +60,7 @@
 				
 				window.location = "https://www.google.com/maps/dir/?api=1&origin="+position.coords.latitude+","+ position.coords.longitude+"&destination='.$location['lat'].','.$location['long'].'";
 				}
+				
 
 				</script>
 
