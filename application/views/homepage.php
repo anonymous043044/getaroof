@@ -134,10 +134,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#about">ABOUT US</a></li>
 							<li><a href="#contact">CONTACT US</a></li>
-							
+							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
+	
 							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/logout">LOG OUT</a></li>
 							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
-
+							
 						</ul>
 					</div>
 				</div>
@@ -163,7 +164,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#about">ABOUT US</a></li>
 							<li><a href="#contact">CONTACT US</a></li>
-							
+							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
 							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signin">SIGN IN</a></li>
 							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
 							
@@ -362,7 +363,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<!-- here what  we make diifer wnd -->
 
 
-
+			</div>
+			<div>
 
 
 			<!-- testominal  part start-->
@@ -426,7 +428,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<img src="<?=base_url()?>images/testimonial/f/mohit.jpg" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>i came to delhi  very first  time . i was  worry for my PG . The site really helps us to find good properties in the least amount of time without any headache of brokerage. GetaRoof  is very good option .   </p>
+							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>When I first came to college I was worried about how will i find a PG  , after spenind countless hours finidng one , i found GetaRoof then i found peace and my new home .   </p>
 							<p style="text-align: right; font-weight: bold;"> <br> <br> </p>
 
 
@@ -452,14 +454,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 
 				<!-- Left and right controls -->
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
 				</a>
 				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
-				</a>
+				</a> -->
 			</div><!-- carousel ended -->
 
 			<!-- testomminal part end -->

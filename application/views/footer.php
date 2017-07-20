@@ -43,7 +43,7 @@
 				
 			</p>
 
-			<p>Company Name &copy; 2017</p>
+			<p>GetaRoof &copy; 2017</p>
 		</div>
 
 	</footer>
