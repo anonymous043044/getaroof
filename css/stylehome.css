@@ -65,7 +65,7 @@ body{
 
 
 .differ_border{
-    border-style: solid;
+    border-style: none;
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: auto;

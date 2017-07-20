@@ -18,12 +18,8 @@
 
 			
 			$id = filter_var($_SERVER['PHP_SELF'], FILTER_SANITIZE_NUMBER_INT);
-			//$a=$this->Search_model->getpropertydetails($id);
-<<<<<<< HEAD
-			$data = file_get_contents('http://52.66.12.227/getaroof/index.php/property/propertydetails?property_id='.$id);
-=======
-			$data = file_get_contents('http://localhost/getaroof/index.php/property/propertydetails?property_id='.$id);
->>>>>>> origin/tushar
+			$data = file_get_contents(base_url() .'index.php/property/propertydetails?property_id='.$id);
+
 			$result=json_decode($data);
 			//echo $result['data'];
 			echo $result->data->food ;
@@ -38,19 +34,6 @@
 			$response=$this->Property_model->getdetails($id);
 			$data=json_encode($response);
 			echo $data;
-
-			//return json_encode($response);
-			/*if($response->status==true)
-			{
-				$response=$data;
-			}	
-			else
-			{
-				$response
-			}*/
-			//
-
-
 		}
 
 		public function reach_property()
@@ -63,42 +46,37 @@
 			{	
 				echo '
 				<script>
-				
-				var long = '.$location['long'].'
-				var lat= '.$location['lat'].'
-				
-
-				function getLocation() {
+				var origin_lat=1;
+				var origin_long=1;
 				if (navigator.geolocation) {
-				    navigator.geolocation.getCurrentPosition(showPosition,showError);
-				} else { 
-				   alert("Geolocation is not supported by this browser.");
+					navigator.geolocation.getCurrentPosition(showPosition,showError);
+				} 
+				else
+				{
+					alert("Geolocation is not supported in your browser");
 				}
+				function showPosition(position) {
+				alert(position.coords.latitude);
+				
+				window.location = "https://www.google.com/maps/dir/?api=1&origin="+position.coords.latitude+","+ position.coords.longitude+"&destination='.$location['lat'].','.$location['long'].'";
+				}
+				function showError(error) {
+ 			   switch(error.code) {
+        			case error.PERMISSION_DENIED:
+		            alert("User denied the request for Geolocation.");
+		            break;
+		        case error.POSITION_UNAVAILABLE:
+		            alert("Location information is unavailable.");
+		            break;
+		        case error.TIMEOUT:
+		            alert( "The request to get user location timed out.");
+		            break;
+		        case error.UNKNOWN_ERROR:
+		            alert("An unknown error occurred.");
+		            break;
+					}
 				}
 
-				function showPosition(position) {
-					
-					window.location = "https://www.google.com/maps/dir/?api=1&origin=position.coords.latitude, position.coords.longitude&destination='.$location['lat'].','.$location['long'].'";	
-				}
-				
-				function showError(error) {
-				switch(error.code) {
-				    case error.PERMISSION_DENIED:
-				        alert("Denied Permission By User");
-				        break;
-				    case error.POSITION_UNAVAILABLE:
-				    	alert("Location information is unavailable");
-				    	break;
-				    case error.TIMEOUT:
-				        alert(The request to get user location timed out);
-				        break;
-				    case error.UNKNOWN_ERROR:
-				    	alert("An unknown error");
-				        break;
-				}
-				}
-				
-				window.location = "https://www.google.com/maps/dir/?api=1&origin=position.coords.latitude, position.coords.longitude&destination='.$location['lat'].','.$location['long'].'";
 				</script>
 
 				';
