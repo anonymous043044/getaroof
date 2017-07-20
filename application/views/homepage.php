@@ -277,29 +277,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<!-- this is what  we make differ -->
 		<div style="background-color: #EAE5F1; width: 100%;" class="container-fluid"><!-- background color -->
 			<div><!-- difference box-->
-				<p id="make_differ_text" style="margin-bottom: 100px ; margin-top: 100px">WE MAKE A DIFFERENCE</p>
+				<p id="make_differ_text" style="margin-bottom: 100px ; margin-top: 100px">We Make A Difference</p>
 			</div>
 			<div class="row " style="text-align: center; margin-top: 40px; margin-bottom: 40px;"><!-- make a differ -->
 				<div class="col-sm-4 " >
 					<p id="differ_text"> Total Saved money</p>
-					<div class="differ_border" style="padding-top: 10px; background-color: white;">
-						<p class="rupee">&#8377;</p>
-						<span class="counter differ_no" >80000</span> 
+					<div class="differ_border" style="padding-top: 10px; width: 150px; height: 150px; background-color: white;">
+						<p class="rupee" style="font-size: 30px;">&#8377;</p>
+						<span class="counter differ_no" style="font-size: 30px; width: 32%" >80000</span> 
 					</div>
 				</div>
 
 				<div class="col-sm-4">
 					<p id="differ_text">Students</p>
-					<div class="differ_border" style="background-color: white;">
-						<span class="counter differ_no">75</span>
+					<div class="differ_border" style="background-color: white; padding-top: 50px; width: 150px; height: 150px;">
+						<span class="counter differ_no" style="font-size: 30px; width: 32%">75</span>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
 					<p id="differ_text">Year target</p>
-					<div class=" differ_border" style="padding-top: 10px ; background-color: white;">
-						<p class="rupee">&#8377;</p>
-						<span class="counter differ_no">100000</span>
+					<div class=" differ_border" style="padding-top: 10px ;  width: 150px; height: 150px; background-color: white;">
+						<p class="rupee" style="font-size: 30px;">&#8377;</p>
+						<span class="counter differ_no" style="font-size: 30px; width: 32%">100000</span>
 					</div>
 				</div>
 			</div> <!-- make a differ -->
@@ -313,7 +313,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<!-- testominal  part start-->
 
 			<div style="margin-bottom: 50px;"><!-- testimonial-->
-				<p id="make_differ_text">TESTIMONIAL</p>
+				<p id="make_differ_text">Testimonial</p>
 			</div>
 
 
@@ -414,7 +414,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		<div><!-- why use this-->
-			<p id="make_differ_text" style="margin-bottom: 50px;margin-top: 50px;">WHY USE THIS ?</p>
+			<p id="make_differ_text" style="margin-bottom: 50px;margin-top: 50px;">Why Use This ?</p>
 		</div>
 
 		<div class="row text-center slideanim">
@@ -441,7 +441,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<div class="row "  style="margin-top: 50px; margin-bottom: 50px;" >
 			<div class="col-sm-4 text-center">
-				<span style="color: black" id="about_heading">ABOUT US</span>
+				<span style="color: black" id="about_heading">About Us</span>
 			</div>
 			<div class="col-sm-8" style="
 			padding-left: 30px;
