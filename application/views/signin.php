@@ -164,9 +164,9 @@
 
   </head>
 
-  <body>  
+  <body  style="background-color: #F35A2D;">  
     <!-- navbar start -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #F35A2D;">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -174,7 +174,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <a class="navbar-brand" href="#myPage">Logo</a>
+          <a class="navbar-brand" href="#myPage">GetaRoof</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -189,12 +189,14 @@
       </div>
     </nav>
     <div class="text-center" style="margin-top: 70px;">
-<h2>Sign in to GetaRoof</h2>
+
+<span style="color: white; font-size: 40px;">Welcome to GetaRoof</span>
+
 </div>    
 <div class="row container-fluid " >
   <div class="col-sm-4">
   </div>
-  <div class="box col-sm-4" style="background-color: white;"">
+  <div class="box col-sm-4" style="background-color: white;">
     
     <?php  
       echo '<label class="text-danger">'.$this->session->flashdata
@@ -226,8 +228,8 @@
   </div>
   <div class="col-sm-4 box1 text-center" style="float: left;">
     <form method="POST" action="../php/signup.php">
-     <span>Click Here</span>
-     <a href="http://52.66.12.227/getaroof/php/signup.php" style="text-decoration: none;">&nbsp;  &nbsp;  New Users</a>
+     <span>New Users ?</span>
+     <a href="http://52.66.12.227/getaroof/php/signup.php" style="text-decoration: none;">&nbsp;  &nbsp;  Sign up </a>
    </form>
  </div>
  <div class="col-sm-4">
