@@ -168,8 +168,8 @@ function myFunction() {
     <div id="navup">
 		<div id="abc">
 		<div id="abc1">
-		<p id="getaroof">Get A Roof</p>
-			
+		<!-- <img src="<?=base_url()?>images/aboutus/getaroof_poster1.jpg" > -->
+			<img  class="img-responsive" src="<?=base_url()?>images/aboutus/poster.jpg">
 		</div>
 		<div id="abc2" class="fixed">
 		 <iframe src="<?php echo site_url('Test');?>" overflow="hidden" id="myFrame" width="100%"></iframe>
