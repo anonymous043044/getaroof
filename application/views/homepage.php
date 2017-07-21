@@ -554,14 +554,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="col-md-6 inputcontact ">
 				
-				<i class="fa fa-phone-square" style="font-size:28px; color: #F35A2D " aria-hidden="true"></i> 
-				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;8285626792</span>
+				<i class="fa fa-phone-square" style="font-size:25px; color: #F35A2D " aria-hidden="true"></i> 
+				<span style="font-size: 25px;"> &nbsp;&nbsp;&nbsp;8285626792</span>
 				<br>
-				<i class="fa fa-envelope-o" style="font-size:28px; color: #F35A2D" aria-hidden="true"></i> 
-				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;vaibhavchellani223@gmail.com</span>
+				<i class="fa fa-envelope-o" style="font-size:25px; color: #F35A2D" aria-hidden="true"></i> 
+				<span style="font-size: 22px;"> &nbsp;&nbsp;&nbsp;vaibhavchellani223@gmail.com</span>
 				<br>
-				<i class="fa fa-globe" style="font-size:28px; color: #F35A2D" aria-hidden="true"></i>
-				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;getaroof.co.in</span>
+				<i class="fa fa-globe" style="font-size:25px; color: #F35A2D" aria-hidden="true"></i>
+				<span style="font-size: 25px;"> &nbsp;&nbsp;&nbsp;getaroof.co.in</span>
 			</div> 
 		</div>
 	</div>
