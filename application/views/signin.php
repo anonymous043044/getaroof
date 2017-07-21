@@ -189,7 +189,9 @@
       </div>
     </nav>
     <div class="text-center" style="margin-top: 70px;">
+
 <span style="color: white; font-size: 40px;">Welcome to GetaRoof</span>
+
 </div>    
 <div class="row container-fluid " >
   <div class="col-sm-4">

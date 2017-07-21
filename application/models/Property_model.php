@@ -11,7 +11,7 @@
 				$response['message']="successful attempt";
 				$a=$query->row();
 				$data=array(
-					
+					'id'=>$id,
 					'food'=>$a->food_prov,
 					'drinking_water'=>$a->drinkingwater_prov,
 					'filter_prov'=>$a->filter_prov,

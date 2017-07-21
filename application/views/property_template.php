@@ -257,7 +257,7 @@
 		<div id="main_box" style="margin-bottom: 50px;">
 		  	<div id="box1">
 		  		<div id="address" >Address : <?php echo $address; ?></div>
-		  		<div id="reach" ><a href="<?php echo base_url(); ?>/index.php/property/reach_property/<?php echo $property_id; ?>" id="reach1">Reach</a></div>
+		  		<div id="reach" ><a href="<?php echo base_url(); ?>index.php/property/reach_property/<?php echo $property_id; ?>" id="reach1">Reach</a></div>
 		  	</div>
 		  	<div id="box2">
 		  		<div id="boygirl" >Gender : <?php echo $gender; ?></div>
@@ -266,7 +266,7 @@
 		  	</div>
 		  	<div id="box3">
 		  		<div id="free" >Free Beds x out of <?php echo $total_seats; ?></div>
-		  		<div id="detail" ><a href="<?php echo base_url(); ?>/index.php/property/viewproperty/<?php echo $property_id; ?>" target="_blank"><button class="btn" id="btn">More Details</button></a></div>
+		  		<div id="detail" ><a href="<?php echo base_url(); ?>index.php/property/viewproperty/<?php echo $property_id; ?>" target="_blank"><button class="btn" id="btn">More Details</button></a></div>
 		  	</div>
 		</div>
 		<div id="down"></div>
