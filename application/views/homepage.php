@@ -16,6 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Chewy|Finger+Paint|Indie+Flower|Mogra|Pacifico|Pangolin|Permanent+Marker|Spectral" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/letterdrop.css">
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/stylehome.css">
@@ -114,7 +115,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <body data-spy="scroll" data-target=".navbar" data-offset="80" >
 
-
 	<?php 
 		if($this->session->isloggedin)
 			{
@@ -132,7 +132,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#about">ABOUT US</a></li>
+							<li><a  href="#about">ABOUT US</a></li>
 							<li><a href="#contact">CONTACT US</a></li>
 							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
 	
@@ -186,13 +186,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- navbar ended -->
 
 	<!-- this is the input start form   -->
-	<div id="navup" class="container-fluid" ><!-- this is only for navbar id -->
-		<div id="yui1" style="background-color: #F35A2D; width: 100%; " >
+	<div id="navup" class="container-fluid"  ><!-- this is only for navbar id -->
+		<div class="row" id="yui1" style="background-color: #F35A2D;  " >
 			<span  style="color: white;">GetaRoof </span>
 
 		</div>
 		<!-- filter buttons -->
-		<div class="subfilter" style="background-color: #F35A2D; margin-top: 0px;  margin-bottom: 0px; padding-top: 50px; padding-bottom: 200px;">
+		<div class="subfilter row" style="background-color: #F35A2D; margin-top: 0px;  margin-bottom: 0px; padding-top: 50px; padding-bottom: 230px;">
 			<div id="filterup"></div>
 
 			<div id="filter">
@@ -272,7 +272,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p>Three Room , Two Bathroom , Full furnished , Non AC ,  2 Cooler</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">5 reviews</p>
+                                <!-- <p class="pull-right">5 reviews</p> -->
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -294,7 +294,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p>Your Description will be added here</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">0 reviews</p>
+                                <!-- <p class="pull-right">0 reviews</p> -->
                                 <p>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
@@ -316,7 +316,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p>Two Bedroom , One Bathroom , Full Furnished , Non AC , 2 Cooler</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">14 reviews</p>
+                                <!-- <p class="pull-right">14 reviews</p> -->
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -331,7 +331,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- trending property here -->
 		<!-- this is what  we make differ -->
-		<div style="background-color: #F35A2D; padding-bottom: 100px; width: 100%;" class="container-fluid"><!-- background color -->
+		<div style="background-color: #F35A2D; padding-bottom: 100px; " class="container-fluid row"><!-- background color -->
 			<div><!-- difference box-->
 				<p id="make_differ_text" style="margin-bottom: 100px ; color: white; margin-top: 100px">We Make A Difference</p>
 			</div>
@@ -428,7 +428,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<img src="<?=base_url()?>images/testimonial/f/mohit.jpg" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
-							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>When I first came to college I was worried about how will i find a PG  , after spenind countless hours finidng one , i found GetaRoof then i found peace and my new home .   </p>
+							<p id="testimonal_text" style="text-align: center; font-weight: bold;"> <br> <br>When I first came to college I was worried about how will i find a PG  , after spending countless hours finidng one , i found GetaRoof then i found peace and my new home .   </p>
 							<p style="text-align: right; font-weight: bold;"> <br> <br> </p>
 
 
@@ -471,7 +471,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		<div><!-- why use this-->
-			<p id="make_differ_text" style="margin-bottom: 50px;color: #201D1B; margin-top: 50px;">Why Use This ?</p>
+			<p id="make_differ_text" class="row" style="margin-bottom: 50px;color: #201D1B; margin-top: 50px;">Why Use This ?</p>
 		</div>
 
 		<div class="row text-center slideanim" style="padding-bottom: 50px;">  
@@ -494,29 +494,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 
 		<!-- why use this  end here -->
-		<a name="about" id="about"></a>
-
-		<div class="row "  style="margin-top: 50px; margin-bottom: 50px;" >
-			<div class="col-sm-4 text-center">
-				<span style="color: black" id="about_heading">About Us</span>
+		<a name="about" id="about"></a>	
+			<div class=" text-center">
+				<span style="color: black" id="about_heading"><a style="text-decoration: none; color: black;" href="<?php echo base_url() ?>/index.php/Rock">About Us</a></span>
 				
 			</div>
-			<div class="col-sm-8" style="
+
+		<div class="row "  style="margin-top: 50px; margin-bottom: 50px;" >
+			
+			<div class="col-sm-12 text-center" style="
 			padding-left: 30px;
 			padding-right: 30px;" id="about_font">
-			GetaRoof is an innovative home rental platform that makes it easier for you to find your new home in just a few clicks , without paying any brokerage and sorting properties your institute wise hence saving a lot of time . Use our verified listing to ensure you find your home by contacting the owners directly. <br>
+
+			GetaRoof is an innovative home rental platform that makes it easier for you to find your new home in just a few clicks , without paying any brokerage and sorting properties your institute wise hence saving a lot of time . Use our verified listing to ensure you find your home by contacting the owners directly. 
 
 
 			If you are a landlord interested in posting your apartments to GetaRoof, please contact us and we will get in touch to help you list the property. <br>
 
-            GetaRoof understands that not everyone has time & expertise to use computer to list a property. To solve this problem, we have made the listing even simpler.
+            GetaRoof understands that not everyone has time & expertise to use computer to list a property. To solve this problem, we have made the listing even simpler. <br>
 
-            You just need to send us the information on WhatsApp on +91-8802907496 or +91-8285626792 and we will create your login for you! No need of a computer or calling anyone. Our Customer Service Representative will call you and take whatever info is required. Nothing can be simpler and quicker than this!
+            You just need to send us the information on WhatsApp on +91-8802907496 or +91-8285626792 and we will create your login for you! No need of a computer or calling anyone. Our Customer Service Representative will call you and take whatever info is required. Nothing can be simpler and quicker than this! 
 
             And tenants, happy hunting and get in touch with us to let us know what else we can help!
 
 
-			 <a href="<?php echo base_url() ?>/index.php/Rock">More</a>
+			 <a style="font-size: 25px; text-decoration: none;"  href="<?php echo base_url() ?>/index.php/Rock">More</a>
 
 			.
 		</div>
@@ -551,16 +553,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 				</form>
 			</div>
-			<div class="col-md-6 inputcontact ">
+			<div class="col-md-6 inputcontact " style="padding-top: 100px; padding-bottom: 100px;">
 				
-				<i class="fa fa-phone-square" style="font-size:28px; color: #F35A2D " aria-hidden="true"></i> 
-				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;8285626792</span>
+				<i class="fa fa-phone-square" style="font-size:23px; color: #F35A2D " aria-hidden="true"></i> 
+				<span style="font-size: 23px;"> &nbsp;&nbsp;&nbsp;8285626792</span>
 				<br>
-				<i class="fa fa-envelope-o" style="font-size:28px; color: #F35A2D" aria-hidden="true"></i> 
-				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;vaibhavchellani223@gmail.com</span>
+				<i class="fa fa-envelope-o" style="font-size:23px; color: #F35A2D" aria-hidden="true"></i> 
+				<span style="font-size: 23px;"> &nbsp;&nbsp;&nbsp;vaibhavchellani223@gmail.com</span>
 				<br>
-				<i class="fa fa-globe" style="font-size:28px; color: #F35A2D" aria-hidden="true"></i>
-				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;getaroof.co.in</span>
+				<i class="fa fa-globe" style="font-size:23px; color: #F35A2D" aria-hidden="true"></i>
+				<span style="font-size: 23px;"> &nbsp;&nbsp;&nbsp;getaroof.co.in</span>
 			</div> 
 		</div>
 	</div>

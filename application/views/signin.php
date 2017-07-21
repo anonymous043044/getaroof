@@ -164,7 +164,7 @@
 
   </head>
 
-  <body  style="background-color: #F35A2D;">  
+  <body  style="background-color: #F35A2D;" class="container-fluid">  
     <!-- navbar start -->
     <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #F35A2D;">
       <div class="container">
@@ -225,7 +225,7 @@
   <div class="col-sm-4">
   </div>
   <div class="col-sm-4 box1 text-center" style="float: left;">
-    <form method="POST" action="../php/signup.php">
+    <form method="POST" action="../php/signup.php" style="padding-top: 10px; padding-bottom: 10px;">
      <span>New Users ?</span>
      <a href="http://52.66.12.227/getaroof/php/signup.php" style="text-decoration: none;">&nbsp;  &nbsp;  Sign up </a>
    </form>
