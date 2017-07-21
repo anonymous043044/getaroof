@@ -133,8 +133,8 @@
    <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav navbar-right">
 
-     <li><a href="<?php echo base_url() ?>/index.php/Home">HOME</a></li>
-     <li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
+     <li><a href="<?php echo base_url() ?>index.php/Home">HOME</a></li>
+     <li><a href="<?php echo base_url() ?>index.php/auth/signin">SIGN IN</a></li>
      <li style=" background-color: #FCFAFF !important;font-size: 16px;"><a href="#"><span style="color: black;">SIGN UP</span></a></li>
      <li><a href="logout.php">LOG OUT</a></li>
    </ul>
@@ -142,6 +142,9 @@
 </div>
 </nav>
 <!-- navbar ended -->
+ <div class="text-center" style="margin-top: 70px;">
+<h2>Welcome to GetaRoof</h2>
+</div>    
 <div class="row container-fluid" id="navup">
   <div class="col-sm-4">
 
