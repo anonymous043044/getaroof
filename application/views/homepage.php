@@ -120,7 +120,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			{
 				//navbar when user loged in	
 				echo '
-				<nav class="navbar navbar-default navbar-fixed-top">
+				<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #F35A2D">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
@@ -150,7 +150,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						}
 			else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
 			{	echo '
-				<nav class="navbar navbar-default navbar-fixed-top">
+				<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #F35A2D">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
@@ -186,13 +186,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- navbar ended -->
 
 	<!-- this is the input start form   -->
-	<div id="navup" class="container-fluid"><!-- this is only for navbar id -->
-		<div id="yui1">
-			<span >GetaRoof </span>
+	<div id="navup" class="container-fluid" ><!-- this is only for navbar id -->
+		<div id="yui1" style="background-color: #F35A2D; width: 100%; " >
+			<span  style="color: white;">GetaRoof </span>
 
 		</div>
 		<!-- filter buttons -->
-		<div class="subfilter" style=";">
+		<div class="subfilter" style="background-color: #F35A2D; margin-top: 0px;  margin-bottom: 0px; padding-top: 50px; padding-bottom: 200px;">
 			<div id="filterup"></div>
 
 			<div id="filter">
@@ -249,19 +249,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- trending property here -->
 
-			 <section  id="make_differ_text" style="padding-top: 100px;">
+			 <section  id="make_differ_text" style="padding-top: 100px; padding-bottom: 50px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p class="section-heading">Trending Properties</p>
-                    <h3 class="section-subheading text-muted">Where we found something good</h3>
+                    
                 </div>
             </div>
         
 
            </div>
     </section>
-                <div class="row">
+                <div class="row" style="padding-bottom: 50px;">
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
@@ -332,31 +332,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- trending property here -->
 		<!-- this is what  we make differ -->
-		<div style="background-color: #EAE5F1; width: 100%;" class="container-fluid"><!-- background color -->
+		<div style="background-color: #F35A2D; padding-bottom: 100px; width: 100%;" class="container-fluid"><!-- background color -->
 			<div><!-- difference box-->
-				<p id="make_differ_text" style="margin-bottom: 100px ; margin-top: 100px">WE MAKE A DIFFERENCE</p>
+				<p id="make_differ_text" style="margin-bottom: 100px ; color: white; margin-top: 100px">We Make A Difference</p>
 			</div>
 			<div class="row " style="text-align: center; margin-top: 40px; margin-bottom: 40px;"><!-- make a differ -->
 				<div class="col-sm-4 " >
-					<p id="differ_text"> Total Saved money</p>
-					<div class="differ_border" style="padding-top: 10px; background-color: white;">
-						<p class="rupee">&#8377;</p>
-						<span class="counter differ_no" >80000</span> 
+					<p id="differ_text" style="color: white;" > Total Saved money</p>
+					<div class="differ_border" style="padding-top: 10px; width: 150px; height: 150px; background-color: white;">
+						<p class="rupee" style="font-size: 30px;">&#8377;</p>
+						<span class="counter differ_no" style="font-size: 30px; width: 32%" >80000</span> 
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<p id="differ_text">Students</p>
-					<div class="differ_border" style="background-color: white;">
-						<span class="counter differ_no">75</span>
+					<p id="differ_text" style="color: white;">Students</p>
+					<div class="differ_border" style="background-color: white; padding-top: 50px; width: 150px; height: 150px;">
+						<span class="counter differ_no" style="font-size: 30px; width: 32%">75</span>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<p id="differ_text">Year target</p>
-					<div class=" differ_border" style="padding-top: 10px ; background-color: white;">
-						<p class="rupee">&#8377;</p>
-						<span class="counter differ_no">100000</span>
+					<p id="differ_text" style="color: white;">Year target</p>
+					<div class=" differ_border" style="padding-top: 10px ;  width: 150px; height: 150px; background-color: white;">
+						<p class="rupee" style="font-size: 30px;">&#8377;</p>
+						<span class="counter differ_no" style="font-size: 30px; width: 32%">100000</span>
 					</div>
 				</div>
 			</div> <!-- make a differ -->
@@ -370,22 +370,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<!-- testominal  part start-->
 
-			<div style="margin-bottom: 50px;"><!-- testimonial-->
-				<p id="make_differ_text">TESTIMONIAL</p>
+			<div style="margin-bottom: 50px; padding-top: 100px;"><!-- testimonial-->
+				<p id="make_differ_text">Testimonial</p>
 			</div>
 
 
 			<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 50px;"><!-- carousel start -->
 				<!-- Indicators -->
-				<ol class="carousel-indicators">
+				<!-- <ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
 					<li data-target="#myCarousel" data-slide-to="3"></li>
-				</ol>
+				</ol> -->
 
 				<!-- Wrapper for slides -->
-				<div class="carousel-inner text-center" role="listbox">
+				<div class="carousel-inner text-center" role="listbox" style="padding-bottom: 50px;">
 
 					<div class="item active">
 
@@ -442,7 +442,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 						<div class="col-sm-4">
-							<img src="https://placekitten.com/g/125/126" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
+							<img src="<?=base_url()?>images/testimonial/f/jj1.jpg" style="border-radius: 50%; border-style: solid;  margin-top: 20px; margin-left: auto; margin-right: auto;">
 						</div><!-- end image of testimonal here -->
 						<div class="col-sm-6" >
 							<p  id="testimonal_text" style="text-align: center; "> <br> <br>GetaRoof provides a great place to stay with safe environment. if they show you something about property that is always same as it. No fake pictures. </p>
@@ -455,14 +455,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 
 				<!-- Left and right controls -->
-				<!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
 				</a>
 				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
-				</a> -->
+				</a>
 			</div><!-- carousel ended -->
 
 			<!-- testomminal part end -->
@@ -472,22 +472,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		<div><!-- why use this-->
-			<p id="make_differ_text" style="margin-bottom: 50px;margin-top: 50px;">WHY USE THIS ?</p>
+			<p id="make_differ_text" style="margin-bottom: 50px;color: #201D1B; margin-top: 50px;">Why Use This ?</p>
 		</div>
 
-		<div class="row text-center slideanim">
+		<div class="row text-center slideanim" style="padding-bottom: 50px;">  
 			<div class="col-sm-4  whythis">
-				<span class="glyphicon glyphicon-piggy-bank logo-small"></span>
+				<span style="color: #F35A2D;" class="glyphicon glyphicon-piggy-bank logo-small"></span>
 				<br>
 				<span id="use_this">FREE</span>
 			</div>
 			<div class="col-sm-4  whythis">
-				<span class="glyphicon glyphicon-search logo-small"></span>
+				<span style="color: #F35A2D;" class="glyphicon glyphicon-search logo-small"></span>
 				<br>
 				<span id="use_this">EASY TO USE</span>
 			</div>
 			<div class="col-sm-4  whythis">
-				<span class="glyphicon glyphicon-certificate logo-small"></span>
+				<span style="color: #F35A2D;" class="glyphicon glyphicon-certificate logo-small"></span>
 				<br>
 				<span id="use_this">COLLEGE AFFILIATED</span>
 				
@@ -499,15 +499,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<div class="row "  style="margin-top: 50px; margin-bottom: 50px;" >
 			<div class="col-sm-4 text-center">
-				<span style="color: black" id="about_heading">ABOUT US</span>
+				<span style="color: black" id="about_heading">About Us</span>
+				
 			</div>
 			<div class="col-sm-8" style="
 			padding-left: 30px;
 			padding-right: 30px;" id="about_font">
-			GetaRoof is an innovative home rental platform that makes it easier for you to find your new home in just a few clicks , without paying any brokerage and sorting properties your institute wise hence saving a lot of time . Use our verified listing to ensure you find your home by contacting the owners directly.
+			GetaRoof is an innovative home rental platform that makes it easier for you to find your new home in just a few clicks , without paying any brokerage and sorting properties your institute wise hence saving a lot of time . Use our verified listing to ensure you find your home by contacting the owners directly. <br>
 
 
-			If you are a landlord interested in posting your apartments to GetaRoof, please contact us and we will get in touch to help you list the property.
+			If you are a landlord interested in posting your apartments to GetaRoof, please contact us and we will get in touch to help you list the property. <br>
 
             GetaRoof understands that not everyone has time & expertise to use computer to list a property. To solve this problem, we have made the listing even simpler.
 
@@ -524,14 +525,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- contact -->
 	<div id="contact">
+		<p class="text-center" style=" font-size: 40px; padding-top: 50px;
+				font-family: 'Mogra', cursive;">Contact</p>
 		<br> <br>
 		<div class="row slideanim" >
 			<a name="contact"></a>
 			<div class="col-md-6 inputcontact" >
 
 
-				<p class="text-center" style=" font-size: 40px;
-				font-family: 'Mogra', cursive;">CONTACT</p>
+				
 				<form>
 					<div class="form-item">
 						<label for="fname">NAME</label>
@@ -550,11 +552,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 				</form>
 			</div>
-			<div class="col-md-6 inputcontact text-center">
-				<p style=" font-size: 40px;
-				font-family: 'Mogra', cursive;">OUR MOTO</p> 
-				<p>ssdjs sjdsd ssjdhasj ssjdhas  <br> sjd jsadbasd </p>
-			</div>
+			<div class="col-md-6 inputcontact ">
+				
+				<i class="fa fa-phone-square" style="font-size:28px; color: #F35A2D " aria-hidden="true"></i> 
+				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;8285626792</span>
+				<br>
+				<i class="fa fa-envelope-o" style="font-size:28px; color: #F35A2D" aria-hidden="true"></i> 
+				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;vaibhavchellani223@gmail.com</span>
+				<br>
+				<i class="fa fa-globe" style="font-size:28px; color: #F35A2D" aria-hidden="true"></i>
+				<span style="font-size: 28px;"> &nbsp;&nbsp;&nbsp;getaroof.co.in</span>
+			</div> 
 		</div>
 	</div>
 	<!-- contact end here -->
