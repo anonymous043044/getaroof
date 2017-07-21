@@ -189,7 +189,7 @@
       </div>
     </nav>
     <div class="text-center" style="margin-top: 70px;">
-<h2>Sign in to "company"</h2>
+<h2>Sign in to GetaRoof</h2>
 </div>    
 <div class="row container-fluid " >
   <div class="col-sm-4">

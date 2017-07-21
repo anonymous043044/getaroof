@@ -128,7 +128,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo '/index.php/Home">GetaRoof</a>
+						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo 'index.php/Home">GetaRoof</a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav navbar-right">
@@ -136,8 +136,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<li><a href="#contact">CONTACT US</a></li>
 							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
 	
-							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/logout">LOG OUT</a></li>
-							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo 'index.php/auth/logout">LOG OUT</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo 'index.php/auth/signup">SIGN UP</a></li>
 							
 						</ul>
 					</div>
@@ -158,15 +158,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo '/index.php/Home">GetaRoof</a>
+						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo 'index.php/Home">GetaRoof</a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#about">ABOUT US</a></li>
 							<li><a href="#contact">CONTACT US</a></li>
 							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
-							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signin">SIGN IN</a></li>
-							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo 'index.php/auth/signin">SIGN IN</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo 'index.php/auth/signup">SIGN UP</a></li>
 							
 						</ul>
 					</div>
@@ -231,7 +231,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						}
 						else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
 						{
-							echo '<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" disabled >';	
+							echo '<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" onclick="disable()" disabled>
+							<script type="text/javascript"> function disable(){alert("Please Login First");} </script>';	
 								
 						}  
 						?>
@@ -515,7 +516,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             And tenants, happy hunting and get in touch with us to let us know what else we can help!
 
 
-			 <a href="<?php echo base_url() ?>/index.php/Rock">More</a>
+			 <a href="<?php echo base_url() ?>index.php/Rock">More</a>
 
 			.
 		</div>
