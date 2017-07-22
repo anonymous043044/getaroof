@@ -30,7 +30,7 @@
      font-weight: bold;
    }
    .navbar li a, .navbar .navbar-brand {
-     color: #85C1E9 !important;
+     color: #ffffff !important;
    }
    .navbar-nav li a:hover, .navbar-nav li.active a {
      // color: #6F1EF4 !important;
@@ -117,10 +117,10 @@
     </script>
     
   </head>
-  <body style="background-color: #95C7E8; " class="container-fluid"> 
+  <body style="background-color: #F35A2D; " class="container-fluid"> 
 
    <!-- navbar start -->
-   <nav class="navbar navbar-default navbar-fixed-top">
+   <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #F35A2D">
     <div class="container">
      <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -128,7 +128,7 @@
        <span class="icon-bar"></span>
        <span class="icon-bar"></span>                        
      </button>
-     <a class="navbar-brand" href="#myPage">Logo</a>
+     <a class="navbar-brand" href="#myPage">GetaRoof</a>
    </div>
    <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav navbar-right">
@@ -142,14 +142,20 @@
 </div>
 </nav>
 <!-- navbar ended -->
+
  <div class="text-center" style="margin-top: 70px;">
 <h2>Welcome to GetaRoof</h2>
 </div>    
+
 <div class="row container-fluid" id="navup">
+
   <div class="col-sm-4">
 
   </div>
   <div class="box col-sm-4 slideanim">
+  <!-- <div class="text-center" style="margin-top: 70px;">
+<span style="color: white; font-size: 40px;">Welcome to GetaRoof</span>
+</div>  -->
     <form method="post" action="<?php echo base_url();?>index.php/Auth/signup_validation"> 
      <div class="form-item">
        <label for="fname">Username</label>
@@ -185,7 +191,7 @@
 
     
 
-    <input type="submit" class="submitbutton btn  btn-lg"  name="signup" value="Sign Up">
+    <input type="submit" class="submitbutton btn  btn-lg" style="background-color: #F35A2D; "  name="signup" value="Sign Up">
   </form>
 </div>
 <div class="col-sm-4">

@@ -10,7 +10,7 @@ footer{
 }
 
 .footer-distributed{
-    background-color: #292c2f;
+    background-color: #F35A2D;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -54,7 +54,7 @@ footer{
     display: inline-block;
     width: 35px;
     height: 35px;
-    background-color:  #33383b;
+    background-color:  #D87D63;
     border-radius: 2px;
 
     font-size: 20px;

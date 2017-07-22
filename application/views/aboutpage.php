@@ -19,6 +19,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="<?=base_url()?>images/home.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -89,7 +90,7 @@
 .navbar {
     margin-bottom: 0;
   /* background-color: #292c2f;*/
-    background-color: #292c2f;
+    background-color: #F35A2D;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -119,6 +120,19 @@
 
 
 	</style>
+
+     <!-- navbar sccript here -->
+    <script>
+      $(document).ready(function(){
+        $("#navup").click(function(){
+          $(".collapse").slideUp("slow");
+        });
+        $(".navbar .navbar-header").click(function(){
+          $(".collapse").slideToggle("slow");
+        });
+      });
+    </script>
+
 </head>
 <body onload="myFunction()" >
 		
@@ -138,7 +152,7 @@ function myFunction() {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>                        
                 </button>
-                <a class="navbar-brand"  href="#myPage">GetaRoof.com</a>
+                <a class="navbar-brand"  href="#myPage">GetaRoof</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -151,7 +165,7 @@ function myFunction() {
             </div>
         </div>
     </nav>
-
+    <div id="navup">
 		<div id="abc">
 		<div id="abc1">
 		<p id="getaroof">Get A Roof</p>
@@ -161,7 +175,7 @@ function myFunction() {
 		 <iframe src="<?php echo site_url('Test');?>" overflow="hidden" id="myFrame" width="100%"></iframe>
 		</div>
 		</div>
-
+        </div>
  
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>

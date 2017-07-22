@@ -1,5 +1,5 @@
 
-/*
+
   html{
   overflow-x: hidden !important;  
 }  
@@ -8,14 +8,15 @@
 body{
 
        overflow-x: hidden !important;
-        overflow-y: scroll;
-        width: 100%;
+        /*overflow-y: scroll;*/
+        /*width: 100%;*/
 }
 /*this is navbar styling*/
 .navbar {
     margin-bottom: 0;
   /* background-color: #292c2f;*/
-    background-color: #292c2f;
+    /*background-color: #292c2f;*/
+    background-color: #F35A2D;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -72,8 +73,8 @@ body{
     margin-right: auto;
     padding-top: 70px;
     vertical-align: center;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     -moz-border-radius: 50%; /* or 50% */
     border-radius: 50%; /* or 50% */
     text-align: center;
@@ -82,11 +83,11 @@ body{
 .differ_no{
     /*display: inline-block;*/ 
        width: 32%; 
-    font-size: 300%;
+    font-size: 30px;
     /*height: 200px;*/
     }
 .rupee{
-    font-size: 250%;
+    font-size: 30px;
 
 }
 
