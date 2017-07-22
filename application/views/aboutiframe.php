@@ -305,7 +305,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading" style="color: #F35A2D">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Still  On it</h3>
+                    <!-- <h3 class="section-subheading text-muted">Still  On it</h3> -->
                 </div>
             </div>
             <div class="row">
