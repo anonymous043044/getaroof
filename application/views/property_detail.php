@@ -315,7 +315,7 @@ $power = "0";
 		</div>
 
 		<br>
-		<span id="question">Security Money</span> amount<br>
+		<span id="question">Security Money</span> $security_money<br>
 		<span id="question">Drinking Water</span> 
 		<div class="container">
 			<div class="row">
@@ -530,9 +530,9 @@ $power = "0";
 		</div>
 	</div>
 </div><br>
-<span id="question">free beds </span><br>
-<span id="question">no of bathroom</span><br>
-<span id="question">total no of beds </span><br>
+<span id="question">no of bathroom</span>$no_of_bathroom<br>
+<!-- <span id="question">free beds </span><br>
+<span id="question">total no of beds </span><br> -->
 
 </div>
 <div id="lower"></div>
