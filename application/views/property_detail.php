@@ -273,7 +273,7 @@
 			
 		</div>
 	</div>
-	<h3 class="text-center">Details</h3>
+	<h2 class="text-center">Details</h3>
 	<?php 
 /*$food = "1";
 $water = "0";
@@ -315,7 +315,7 @@ $power = "0";
 		</div>
 
 		<br>
-		<span id="question">Security Money</span> $security_money<br>
+		<span id="question">Security Money</span><?php  echo $security_money;?><br>
 		<span id="question">Drinking Water</span> 
 		<div class="container">
 			<div class="row">
@@ -530,7 +530,7 @@ $power = "0";
 		</div>
 	</div>
 </div><br>
-<span id="question">no of bathroom</span>$no_of_bathroom<br>
+<span id="question">no of bathroom</span><?php  echo $no_of_bathroom;?><br>
 <!-- <span id="question">free beds </span><br>
 <span id="question">total no of beds </span><br> -->
 
