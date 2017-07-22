@@ -13,6 +13,7 @@
 				$data=array(
 					'id'=>$id,
 					'food'=>$a->food_prov,
+					'security_money'=>$a->security_money,
 					'drinking_water'=>$a->drinkingwater_prov,
 					'filter_prov'=>$a->filter_prov,
 					'furnishing_type'=>$a->furnishing_type,
