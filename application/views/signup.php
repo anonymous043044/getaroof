@@ -30,7 +30,7 @@
      font-weight: bold;
    }
    .navbar li a, .navbar .navbar-brand {
-     color: #85C1E9 !important;
+     color: #ffffff !important;
    }
    .navbar-nav li a:hover, .navbar-nav li.active a {
      // color: #6F1EF4 !important;

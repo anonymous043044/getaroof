@@ -21,10 +21,10 @@
 
 		<div class="footer-right">
 
-			<a href="https://www.facebook.com/tuskibansal"><i class="fa fa-facebook"></i></a>
-			<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
-			<a href="https://www.linkedin.com/mynetwork/"><i class="fa fa-linkedin"></i></a>
-			<a href="https://github.com/anonymous043044/startup-bvp1.1"><i class="fa fa-github"></i></a>
+			<a href="https://www.facebook.com/tuskibansal" target="blank"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/login" target="blank"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.linkedin.com/mynetwork/" target="blank"><i class="fa fa-linkedin"></i></a>
+			<!-- <a href="https://github.com/anonymous043044/startup-bvp1.1" target="blank"><i class="fa fa-github"></i></a> -->
 
 		</div>
 
@@ -37,13 +37,13 @@
 				·
 				<a href="#contact">Contact</a>
 				·
-				<a href="signup/signin.php">Sign In</a>
+				<a href="<?php echo base_url() ?>/index.php/auth/signin">Sign In</a>
 				·
-				<a href="php/signup.php">Sign Up</a>
+				<a href="<?php echo base_url() ?>/index.php/auth/signup">Sign Up</a>
 				
 			</p>
 
-			<p>GetaRoof &copy; 2017</p>
+			<p style="color: white;">GetaRoof &copy; 2017</p>
 		</div>
 
 	</footer>
