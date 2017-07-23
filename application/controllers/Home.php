@@ -4,6 +4,32 @@
 	{
 		public function index()
 		{	
+
+			if($this->session->show_snack_login)
+			{ 
+				$message="Welcome ".$this->session->username." You Are Logged In ";
+
+				//$message="hi";
+				$data=array(
+					'message'=>$message
+
+					);
+				$this->load->view('snackbar.php',$data);
+				//$this->session->set_userdata('show_snack_login',false);
+			}
+			if($this->session->show_snack_signup)
+			{ 
+				$message="Welcome ".$this->session->username." Sucessfully Signed Up";
+
+				//$message="hi";
+				$data=array(
+					'message'=>$message
+
+					);
+				$this->load->view('snackbar.php',$data);
+				$this->session->set_userdata('show_snack_signup',false);
+				$this->session->set_userdata('show_snack_login',true);
+			}
 			$this->load->view('homepage.php');
 			/*just for trial  i  commented this */
 			/*$this->load->view('homepage');*/
@@ -12,8 +38,12 @@
 
 		}
 		public function search()
-		{
-			$this->load->view('nav');
+		{	
+
+			if($this->session->isloggedin)
+			{
+
+				$this->load->view('nav');
 			$this->load->model('Search_model');
 			$gender=$this->input->post('Gender');
 			$distanceupper=$this->input->post('Distance');
@@ -38,6 +68,23 @@
 			
 
 			$this->load->view('footer');
+
+				
+			}
+			else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
+			{		
+				$this->load->library('form_validation');
+					$message="Please Login/Sign Up First";
+					$data=array(
+ 						'message'=>$message
+					);
+					$this->load->view('snackbar.php',$data);
+					$this->load->view('signin.php');
+			}  
+
+
+
+			
 		}
 	}
 
