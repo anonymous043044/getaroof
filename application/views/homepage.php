@@ -114,7 +114,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="80" >
-
 	<?php 
 		if($this->session->isloggedin)
 			{
@@ -225,17 +224,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</select>
 					</div>
 					<div class="container-fluid1 btn4">
-					<?php  if($this->session->isloggedin)
-						{
-							echo '<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" >';
-						}
-						else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
-						{
-							echo '<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" onclick="disable()" disabled>
-							<script type="text/javascript"> function disable(){alert("Please Login First");} </script>';	
-								
-						}  
-						?>
+					<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" >
 						
 					</div>
 				</form>
