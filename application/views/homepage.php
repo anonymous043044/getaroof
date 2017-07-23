@@ -107,6 +107,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     color: #333;
 }
 
+
+
 	</style>
 
 	
@@ -471,7 +473,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		<div><!-- why use this-->
-			<p id="make_differ_text" class="row" style="margin-bottom: 50px;color: #201D1B; margin-top: 50px;">Why Use This ?</p>
+		<article>
+			<p id="make_differ_text" class="fancy row" style="margin-bottom: 50px;color: #201D1B; margin-top: 50px;">Why Use This ?</p>
+
+			</article>
 		</div>
 
 		<div class="row text-center slideanim" style="padding-bottom: 50px;">  
@@ -495,7 +500,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- why use this  end here -->
 		<a name="about" id="about"></a>	
-			<div class=" text-center">
+			<div class=" text-center" style="padding-top: 100px;">
 				<span style="color: black" id="about_heading"><a style="text-decoration: none; color: black;" href="<?php echo base_url() ?>/index.php/Rock">About Us</a></span>
 				
 			</div>

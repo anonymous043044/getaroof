@@ -237,8 +237,24 @@
 		font-size: 15px;
 		font-weight: bold;
 	}
+	
 
 	}
+
+	#address1{
+		
+		font-family: 'Alegreya Sans SC', sans-serif;	
+	}
+	#address2{
+		
+		font-family: 'Quattrocento Sans', sans-serif;
+		color: #f35a2d;
+	}
+	/*button class and there one more name id =""btn*/
+		#btn{
+			background-color: #f35a2d;
+			color: white;
+		}
 	</style>
 	<script>
 	$(document).ready(function(){
@@ -256,17 +272,17 @@
 		<div id="super"></div>
 		<div id="main_box" style="margin-bottom: 50px;">
 		  	<div id="box1">
-		  		<div id="address" >Address : <?php echo $address; ?></div>
-		  		<div id="reach" ><a href="<?php echo base_url(); ?>/index.php/property/reach_property/<?php echo $property_id; ?>" id="reach1">Reach</a></div>
+		  		<div id="address" ><span id="address1">Address :</span><span id="address2"><?php echo $address; ?></span> </div>
+		  		<div id="reach" ><a style="text-decoration: none;" href="<?php echo base_url(); ?>/index.php/property/reach_property/<?php echo $property_id; ?>" id="reach1">Reach</a></div>
 		  	</div>
 		  	<div id="box2">
-		  		<div id="boygirl" >Gender : <?php echo $gender; ?></div>
-		  		<div id="rent" >Rent : <?php echo $rent; ?> &#x20B9</div>
+		  		<div id="boygirl" ><span id="address1">Gender : </span><span id="address2"><?php echo $gender; ?></span></div>
+		  		<div id="rent" ><span id="address1">Rent : </span><span id="address2"><?php echo $rent; ?> &#x20B9</span></div>
 		  		
 		  	</div>
 		  	<div id="box3">
-		  		<div id="free" >Free Beds x out of <?php echo $total_seats; ?></div>
-		  		<div id="detail" ><a href="<?php echo base_url(); ?>/index.php/property/viewproperty/<?php echo $property_id; ?>" target="_blank"><button class="btn" id="btn">More Details</button></a></div>
+		  		<div id="free" ><span id="address1">Free Beds x out of <?php echo $total_seats; ?></span></div>
+		  		<div id="detail" ><a href="<?php echo base_url(); ?>/index.php/property/viewproperty/<?php echo $property_id; ?>" target="_blank"><button class="btn" id="btn" >More Details</button></a></div>
 		  	</div>
 		</div>
 		<div id="down"></div>
