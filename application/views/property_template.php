@@ -272,8 +272,10 @@
 		<div id="super"></div>
 		<div id="main_box" style="margin-bottom: 50px;">
 		  	<div id="box1">
+
 		  		<div id="address" ><span id="address1">Address :</span><span id="address2"><?php echo $address; ?></span> </div>
 		  		<div id="reach" ><a style="text-decoration: none;" href="<?php echo base_url(); ?>/index.php/property/reach_property/<?php echo $property_id; ?>" id="reach1">Reach</a></div>
+
 		  	</div>
 		  	<div id="box2">
 		  		<div id="boygirl" ><span id="address1">Gender : </span><span id="address2"><?php echo $gender; ?></span></div>
@@ -281,8 +283,10 @@
 		  		
 		  	</div>
 		  	<div id="box3">
+
 		  		<div id="free" ><span id="address1">Free Beds x out of <?php echo $total_seats; ?></span></div>
 		  		<div id="detail" ><a href="<?php echo base_url(); ?>/index.php/property/viewproperty/<?php echo $property_id; ?>" target="_blank"><button class="btn" id="btn" >More Details</button></a></div>
+
 		  	</div>
 		</div>
 		<div id="down"></div>

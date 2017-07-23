@@ -157,9 +157,9 @@ function myFunction() {
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                   
-                    <li><a href="<?php echo base_url() ?>/index.php/Home">HOME</a></li>
-                    <li><a href="<?php echo base_url() ?>/index.php/auth/signin">SIGN IN</a></li>
-                    <li><a href="<?php echo base_url() ?>/index.php/auth/signup">SIGN UP</a></li>
+                    <li><a href="<?php echo base_url() ?>index.php/Home">HOME</a></li>
+                    <li><a href="<?php echo base_url() ?>index.php/auth/signin">SIGN IN</a></li>
+                    <li><a href="<?php echo base_url() ?>index.php/auth/signup">SIGN UP</a></li>
                     <li><a href="#">LOG OUT</a></li>
                 </ul>
             </div>

@@ -116,7 +116,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="80" >
-
 	<?php 
 		if($this->session->isloggedin)
 			{
@@ -130,7 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo '/index.php/Home">GetaRoof</a>
+						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo 'index.php/Home">GetaRoof</a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav navbar-right">
@@ -138,8 +137,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<li><a href="#contact">CONTACT US</a></li>
 							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
 	
-							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/logout">LOG OUT</a></li>
-							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo 'index.php/auth/logout">LOG OUT</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo 'index.php/auth/signup">SIGN UP</a></li>
 							
 						</ul>
 					</div>
@@ -160,15 +159,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo '/index.php/Home">GetaRoof</a>
+						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo 'index.php/Home">GetaRoof</a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#about">ABOUT US</a></li>
 							<li><a href="#contact">CONTACT US</a></li>
 							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
-							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signin">SIGN IN</a></li>
-							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo 'index.php/auth/signin">SIGN IN</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo 'index.php/auth/signup">SIGN UP</a></li>
 							
 						</ul>
 					</div>
@@ -227,16 +226,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</select>
 					</div>
 					<div class="container-fluid1 btn4">
-					<?php  if($this->session->isloggedin)
-						{
-							echo '<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" >';
-						}
-						else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
-						{
-							echo '<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" disabled >';	
-								
-						}  
-						?>
+					<input type="submit" name="SUBMIT" class=" btn" id="submitbutton2" >
 						
 					</div>
 				</form>
@@ -520,10 +510,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             You just need to send us the information on WhatsApp on +91-8802907496 or +91-8285626792 and we will create your login for you! No need of a computer or calling anyone. Our Customer Service Representative will call you and take whatever info is required. Nothing can be simpler and quicker than this! 
 
-            And tenants, happy hunting and get in touch with us to let us know what else we can help!
-
-
+            And tenants, happy hunting and get in touch with us to let us know what else we can he
 			 <a style="font-size: 25px; text-decoration: none;"  href="<?php echo base_url() ?>/index.php/Rock">More</a>
+
 
 			.
 		</div>
@@ -560,6 +549,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="col-md-6 inputcontact " style="padding-top: 100px; padding-bottom: 100px;">
 				
+
 				<i class="fa fa-phone-square" style="font-size:23px; color: #F35A2D " aria-hidden="true"></i> 
 				<span style="font-size: 23px;"> &nbsp;&nbsp;&nbsp;8285626792</span>
 				<br>
@@ -568,6 +558,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<br>
 				<i class="fa fa-globe" style="font-size:23px; color: #F35A2D" aria-hidden="true"></i>
 				<span style="font-size: 23px;"> &nbsp;&nbsp;&nbsp;getaroof.co.in</span>
+
+				
+
 			</div> 
 		</div>
 	</div>

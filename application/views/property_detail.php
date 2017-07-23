@@ -389,16 +389,16 @@
 		<div id="first"></div>
 		<div id="image_box" class="text-center" >
 			<div id="image1">
-				<img src="https://placekitten.com/420/310" alt="image1" class="img-responsive img-thumbnail">
+				<img src="<?= base_url('assets/id_'.$id.'/1.jpg')?>" alt="image1" class="img-responsive img-thumbnail">
 			</div>
 			<div id="image2" >
-				<img src="https://placekitten.com/420/310" alt="image2" class="img-responsive img-thumbnail">
+				<img src="<?= base_url('assets/id_'.$id.'/2.jpg')?>" alt="image2" class="img-responsive img-thumbnail">
 			</div>
 			<div id="image3" >
-				<img src="https://placekitten.com/420/310" alt="image3" class="img-responsive img-thumbnail">
+				<img src="<?= base_url('assets/id_'.$id.'/3.jpg')?>" alt="image3" class="img-responsive img-thumbnail">
 			</div>
 			<div id="image4" >
-				<img src="https://placekitten.com/420/310" alt="image4" class="img-responsive img-thumbnail">
+				<img src="<?= base_url('assets/id_'.$id.'/4.jpg')?>" alt="image4" class="img-responsive img-thumbnail">
 			</div>
 		</div>
 		<div id="detail_box" >
@@ -453,6 +453,10 @@ $power = "0";
 		</div>
 
 		<br>
+
+
+
+		<span id="question">Security Money</span> amount<br>
 
 		<span id="question">Drinking Water</span> 
 		

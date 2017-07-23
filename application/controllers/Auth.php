@@ -51,6 +51,7 @@
 						//login successful
 						$this->session->set_userdata($data);
 						$this->session->set_userdata('isloggedin', true);
+						$this->session->set_userdata('show_snack_login',true);
 						redirect(base_url().'index.php/Home/index');
 					}
 					else
@@ -70,6 +71,7 @@
 						//login successful
 						$this->session->set_userdata($data);
 						$this->session->set_userdata('isloggedin', true);
+						$this->session->set_userdata('show_snack_login',true);
 						redirect(base_url().'index.php/Home/index');
 					}
 					else
@@ -159,6 +161,7 @@
 						//session variable changes
 						$this->session->set_userdata('isloggedin', true);
 						$this->session->set_userdata($result);
+						$this->session->set_userdata('show_snack_signup',true);
 						redirect(base_url().'index.php/Home/index');			
 					}
 					else
@@ -215,6 +218,8 @@
 			
 
 			$this->session->unset_userdata('isloggedin');
+			$this->session->set_userdata('show_snack_login',false);
+			$this->session->set_userdata('show_snack_signup',false);
 			redirect(base_url().'index.php/Home/index');
 			
 		}
