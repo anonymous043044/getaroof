@@ -1,13 +1,13 @@
 body{
     overflow-x: hidden;
-    overflow-y: scroll;
+    
 
 }
 /*navbar ki startig*/
 .navbar {
     margin-bottom: 0;
     /* background-color: #292c2f;*/
-    background-color: #292c2f;
+    background-color: #F35A2D;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;

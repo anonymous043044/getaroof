@@ -78,7 +78,7 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 
-	'password' => 'astrokick',
+	'password' => '12345',
 	'database' => 'trial_startup',
 
 	'dbdriver' => 'mysqli',
