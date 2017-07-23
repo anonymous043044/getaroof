@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>nav</title>
+	<title>Get_A_Roof-search</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="home.ico"/>
@@ -11,32 +11,93 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/navstyle.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/footer.css">
 
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/footer.css">
+	<link rel="shortcut icon" type="image/x-icon" href="<?=base_url()?>images/home.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+	<style>
+		.navbar{
+			background-color: #f35a2d;
+		}
+	</style>
+	<script>
+		$(document).ready(function(){
+			$("#navup").click(function(){
+				$(".collapse").slideUp("slow");
+			});
+			$(".navbar .navbar-header").click(function(){
+				$(".collapse").slideToggle("slow");
+			});
+		});
+	</script>
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	
+	<?php 
+		if($this->session->isloggedin)
+			{
+				//navbar when user loged in	
+				echo '
+				<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #F35A2D">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo '/index.php/Home">GetaRoof</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a  href="#about">ABOUT US</a></li>
+							<li><a href="#contact">CONTACT US</a></li>
+							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
+	
+							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/logout">LOG OUT</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav>';
 
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
-				</button>
-				<a class="navbar-brand" href="#">Logo</a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
 
-					<li><a href="<?php echo base_url() ?>/index.php/Home">HOME</a></li>
-					
-					<li><a href="#">My_Name</a></li>
-					<li><a href="logout.php">LOG OUT</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+
+
+						}
+			else if(!$this->session->isloggedin || isset($_SESSION['isloggedin']))
+			{	echo '
+				<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #F35A2D">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand"  href="';?><?php echo base_url() ?><?php echo '/index.php/Home">GetaRoof</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#about">ABOUT US</a></li>
+							<li><a href="#contact">CONTACT US</a></li>
+							<li><a href="https://goo.gl/forms/9FfU0ZoVkMKQoVaN2">POST MY PROPERTY</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signin">SIGN IN</a></li>
+							<li><a href="';?><?php echo base_url() ?><?php echo '/index.php/auth/signup">SIGN UP</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav>';
+				//navbar when user logged out
+
+			}
+
+
+
+	 ?>
 	
 	<div class="subfilter" style="padding-top: 100px;">
 		<div id="filterup"></div>
