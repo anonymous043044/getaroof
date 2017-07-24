@@ -430,11 +430,11 @@ $power = "0";
 <div id="get_details">
 	<div id="upper"></div>
 	<div id="info1" class="text-center"> 
-			<span id="question">Rent</span> <span id="answer">Rent</span><br><br>
-		<span id="question">Secuity Money</span><span id="answer"> amount</span><br><br>
-		<span id="question">Address </span> <span id="answer">Address</span><br><br>
-		<span id="question">Go to direction </span><span id="answer"> go  to</span><br><br>
-		<span id="question">free beds </span><span id="answer">Free beds</span><br><br>
+			<span id="question">Rent</span> <span id="answer"><?php echo $rent;?></span><br><br>
+		<span id="question">Security Money</span><span id="answer"><?php echo $security_money;?></span><br><br>
+		<span id="question">Address </span> <span id="answer"><?php echo $address;?></span><br><br>
+		<!-- <span id="question">Go to direction </span><span id="answer"> go  to</span><br><br> -->
+		<span id="question">free beds </span><span id="answer"><?php echo $free_beds;?></span><br><br>
 		<span id="question">Food  facility</span> 
 
 		
@@ -455,15 +455,8 @@ $power = "0";
 		</div>
 
 		<br>
-<<<<<<< HEAD
 		<span id="question">Security Money</span><?php  echo $security_money;?><br>
-=======
 
-
-
-		<span id="question">Security Money</span> amount<br>
-
->>>>>>> db966cd07a1383e16aec26ca774249068a85f8ab
 		<span id="question">Drinking Water</span> 
 		
 			<div class="row">
@@ -639,15 +632,9 @@ $power = "0";
 		
 	</div>
 </div><br>
-<<<<<<< HEAD
-<span id="question">no of bathroom</span><?php  echo $no_of_bathroom;?><br>
-<!-- <span id="question">free beds </span><br>
-<span id="question">total no of beds </span><br> -->
-=======
 
-<span id="question"><span id="answer">Bathroom</span></span><br>
+<span id="question"><span id="answer">Number Of Bathroom</span> <?php echo $no_of_bathroom; ?></span><br>
 
->>>>>>> db966cd07a1383e16aec26ca774249068a85f8ab
 
 </div>
 <div id="lower"></div>

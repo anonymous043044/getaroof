@@ -43,7 +43,7 @@
 			if($this->session->isloggedin)
 			{
 
-				$this->load->view('nav');
+			$this->load->view('nav');
 			$this->load->model('Search_model');
 			$gender=$this->input->post('Gender');
 			$distanceupper=$this->input->post('Distance');
@@ -59,6 +59,7 @@
  						'address'=>$a->property_address,
  						'gender'=>$row->gender,
  						'rent'=>$row->rent_pm,
+ 						'free_beds'=>$row->property_free_bed,
  						'total_seats'=>$a->property_total_beds,
  						'property_id'=>$row->property_id
 					);

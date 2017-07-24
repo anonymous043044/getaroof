@@ -5,14 +5,25 @@
 		{
 			$this->db->where('property_id',$id);
 			$query=$this->db->get('property_full_details');
+			$this->db->where('property_id',$id);
+			$sql=$this->db->get('property_details');
+			$this->db->where('property_id',$id);
+			$s=$this->db->get('property_listings');
+
 			if ($query->num_rows()) 
 			{	
 				$response['status']=true;
 				$response['message']="successful attempt";
 				$a=$query->row();
+				$q=$sql->row();
+				$c=$s->row();
 				$data=array(
 					'id'=>$id,
 					'food'=>$a->food_prov,
+
+					'rent'=>$c->rent_pm,
+					'address'=>$q->property_address,
+					'free_beds'=>$q->property_free_bed,
 					'security_money'=>$a->security_money,
 					'drinking_water'=>$a->drinkingwater_prov,
 					'filter_prov'=>$a->filter_prov,

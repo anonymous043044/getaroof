@@ -207,22 +207,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<option value="Female">Female</option>
 						</select>
 					</div>
-					<div class="container-fluid1 btn2">
+					<!-- <div class="container-fluid1 btn2">
 
-						<select name="Distance" class="btn  btn-responsive xyz"  ><!-- xyz for  styling -->
+						<select name="Distance" class="btn  btn-responsive xyz"  >
 							<option value="3">1-3 km</option>
 							<option value="5">3-5 km</option>
 							<option value="7" selected="true">5-7 km</option>
 						</select>
-					</div>
+					</div> -->
 					<div class="container-fluid1 btn3">
 
 
 						<select name="Budget" class="btn  btn-responsive xyz" ><!-- xyz for  styling -->
-							<option value="10000">Budget : All</option>
-							<option value="4000">Under 4000</option>
-							<option value="5000">Under 5000</option>
-							<option value="6000">Under 6000</option>
+							<option value="15000">Budget : All</option>
+							<option value="5000">Budget :Under 5000</option>
+							<option value="7000">Budget :Under 7000</option>
+							<option value="10000">Budget :Under 10000</option>
 						</select>
 					</div>
 					<div class="container-fluid1 btn4">

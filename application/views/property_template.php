@@ -284,7 +284,7 @@
 		  	</div>
 		  	<div id="box3">
 
-		  		<div id="free" ><span id="address1">Free Beds x out of <?php echo $total_seats; ?></span></div>
+		  		<div id="free" ><span id="address1">Free Beds  <?php echo $free_beds; ?> out of <?php echo $total_seats; ?></span></div>
 		  		<div id="detail" ><a href="<?php echo base_url(); ?>/index.php/property/viewproperty/<?php echo $property_id; ?>" target="_blank"><button class="btn" id="btn" >More Details</button></a></div>
 
 		  	</div>
