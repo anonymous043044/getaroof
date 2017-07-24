@@ -126,12 +126,12 @@
 				<div class="container-fluid1 btn3">
 
 
-					<select name="Budget" class="btn  btn-responsive xyz" ><!-- xyz for  styling -->
+					<select name="Budget" class="btn  btn-responsive xyz" >
 
-						<option value="10000">Budget : All</option>
-						<option value="4000">Under 4000</option>
-						<option value="5000">Under 5000</option>
-						<option value="6000">Under 6000</option>
+						<option value="15000">Budget : All</option>
+							<option value="5000">Budget :Under 5000</option>
+							<option value="7000">Budget :Under 7000</option>
+							<option value="10000">Budget :Under 10000</option>
 
 					</select>
 				</div>
